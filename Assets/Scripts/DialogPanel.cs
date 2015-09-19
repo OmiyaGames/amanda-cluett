@@ -48,6 +48,7 @@ public class DialogPanel : MonoBehaviour
 
     DialogCollection currentDialogs = null;
     int dialogIndex = -1;
+    MenuManager manager = null;
 
     public bool IsVisible
     {
@@ -137,6 +138,9 @@ public class DialogPanel : MonoBehaviour
                 // Play an animation
                 animator.SetBool(visibleBoolField, false);
             }
+
+            // Play sound
+            PlaySound();
         }
     }
 
@@ -144,5 +148,14 @@ public class DialogPanel : MonoBehaviour
     {
         presentText.text = nextText.text;
         presentText.color = nextText.color;
+    }
+
+    void PlaySound()
+    {
+        if (manager == null)
+        {
+            manager = Singleton.Get<MenuManager>();
+        }
+        manager.ButtonClick.Play();
     }
 }
