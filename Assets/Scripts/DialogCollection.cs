@@ -88,7 +88,7 @@ public class DialogCollection : MonoBehaviour, IList<Dialog>
     #endregion
 
     // Use this for initialization
-    void Start ()
+    void Awake ()
     {
         allDialogs.Clear();
         Dialog childDialog = null;

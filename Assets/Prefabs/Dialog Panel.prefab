@@ -181,7 +181,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &179192
 GameObject:
   m_ObjectHideFlags: 1
@@ -267,7 +267,7 @@ MonoBehaviour:
     textColor: {r: .477941155, g: .805577934, b: 1, a: 1}
   - character: 0
     textColor: {r: .82961452, g: .558823526, b: 1, a: 1}
-  initialDialogs: {fileID: 0}
+  initialDialogs: {fileID: 11407434}
 --- !u!114 &11407434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -379,7 +379,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 0
-  text: And so I've dedicated myself to deposit one dollar every day into your account.
+  text: And so I've dedicated myself to deposit one dollar into your account at regular
+    intervals.
 --- !u!114 &11440636
 MonoBehaviour:
   m_ObjectHideFlags: 1
