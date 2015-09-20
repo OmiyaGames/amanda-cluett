@@ -264,10 +264,16 @@ MonoBehaviour:
   nextTrigger: next
   visibleStateName: Dialog Visible Still
   characterMap:
+  - character: 2
+    textColor: {r: 1, g: 1, b: 1, a: 1}
   - character: 1
     textColor: {r: .477941155, g: .805577934, b: 1, a: 1}
   - character: 0
     textColor: {r: .82961452, g: .558823526, b: 1, a: 1}
+  - character: 4
+    textColor: {r: .574036479, g: 1, b: .558823526, a: 1}
+  - character: 3
+    textColor: {r: .975659192, g: 1, b: .558823526, a: 1}
   initialDialogs: {fileID: 11407434}
 --- !u!114 &11407434
 MonoBehaviour:

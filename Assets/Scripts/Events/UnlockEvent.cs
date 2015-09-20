@@ -19,6 +19,7 @@ public class UnlockEvent : MonoBehaviour
     IEventCondition[] allConditionsToMeet = null;
     bool isUnlocked = false, allConditionsPassed = false;
     int index = 0;
+    string savedKey = null;
 
     System.Action<GamePanel> unitsChanged = null;
 
@@ -27,6 +28,18 @@ public class UnlockEvent : MonoBehaviour
         get
         {
             return isUnlocked;
+        }
+    }
+
+    public string PlayerPrefsKey
+    {
+        get
+        {
+            if(string.IsNullOrEmpty(savedKey) == true)
+            {
+                savedKey = "Event." + storedKey;
+            }
+            return savedKey;
         }
     }
 
@@ -40,7 +53,7 @@ public class UnlockEvent : MonoBehaviour
         allConditionsToMeet = GetComponentsInChildren<IEventCondition>();
 
         // Check to see if this event is unlocked or not
-        isUnlocked = (PlayerPrefs.GetInt(storedKey, 0) != 0);
+        isUnlocked = (PlayerPrefs.GetInt(PlayerPrefsKey, 0) != 0);
         if(isUnlocked == true)
         {
             UnlockEverything();
@@ -86,7 +99,7 @@ public class UnlockEvent : MonoBehaviour
         {
             // Mark as unlocked
             isUnlocked = true;
-            PlayerPrefs.SetInt(storedKey, 1);
+            PlayerPrefs.SetInt(PlayerPrefsKey, 1);
 
             // Disassociate with all events
             OnDestroy();
