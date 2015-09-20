@@ -31,6 +31,7 @@ public class UnlockEvent : MonoBehaviour
 
     System.Action<GamePanel> unitsChanged = null;
 
+    #region Properties
     public bool IsUnlocked
     {
         get
@@ -58,6 +59,15 @@ public class UnlockEvent : MonoBehaviour
             return savedKey;
         }
     }
+
+    public int IncreaseCents
+    {
+        get
+        {
+            return increaseCents;
+        }
+    }
+    #endregion
 
     public void UnlockEverything(EventQueue queue)
     {

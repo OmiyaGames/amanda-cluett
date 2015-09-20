@@ -4,7 +4,7 @@ using System.Collections;
 public class Dialog : MonoBehaviour
 {
     [SerializeField]
-    DialogPanel.Character character = DialogPanel.Character.Wife;
+    DialogPanel.Character character = DialogPanel.Character.AmandaCuett;
     [SerializeField]
     [Multiline]
     string text = "This is a test";
@@ -17,7 +17,7 @@ public class Dialog : MonoBehaviour
         }
     }
 
-    public string Text
+    public virtual string Text
     {
         get
         {

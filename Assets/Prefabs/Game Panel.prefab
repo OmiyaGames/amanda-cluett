@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100304
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22410398}
+  - 114: {fileID: 11416312}
+  m_Layer: 5
+  m_Name: Dialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &101344
 GameObject:
   m_ObjectHideFlags: 1
@@ -11,6 +27,22 @@ GameObject:
   - 114: {fileID: 11481766}
   m_Layer: 5
   m_Name: Dialog (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &101448
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22451956}
+  - 114: {fileID: 11489212}
+  m_Layer: 5
+  m_Name: Dialog (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -28,6 +60,22 @@ GameObject:
   - 114: {fileID: 11486536}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &102088
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22429108}
+  - 114: {fileID: 11468218}
+  m_Layer: 5
+  m_Name: Supply Condition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +140,7 @@ GameObject:
   - 224: {fileID: 22426984}
   - 114: {fileID: 11439558}
   m_Layer: 5
-  m_Name: Dialog (5)
+  m_Name: Dialog (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -209,6 +257,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &111248
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22419052}
+  - 114: {fileID: 11474002}
+  m_Layer: 5
+  m_Name: Dialog (18)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &114294
 GameObject:
   m_ObjectHideFlags: 1
@@ -220,6 +284,70 @@ GameObject:
   - 114: {fileID: 11449916}
   m_Layer: 5
   m_Name: Supply Condition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &114830
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22482872}
+  - 114: {fileID: 11457340}
+  m_Layer: 5
+  m_Name: Dialog (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &115122
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22443046}
+  - 114: {fileID: 11449582}
+  m_Layer: 5
+  m_Name: Dialog (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &115216
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22404252}
+  - 114: {fileID: 11493470}
+  m_Layer: 5
+  m_Name: Dialog (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &115630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22476260}
+  - 114: {fileID: 11489818}
+  m_Layer: 5
+  m_Name: Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -269,7 +397,7 @@ GameObject:
   - 224: {fileID: 22488710}
   - 114: {fileID: 11465120}
   m_Layer: 5
-  m_Name: Donate To YWCA Dialog
+  m_Name: Donate To MWFI Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -285,7 +413,7 @@ GameObject:
   - 224: {fileID: 22427744}
   - 114: {fileID: 11478240}
   m_Layer: 5
-  m_Name: Anti-Suffrage Dialog
+  m_Name: George's Death Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -325,6 +453,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &119230
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22435724}
+  - 114: {fileID: 11456534}
+  m_Layer: 5
+  m_Name: Dialog (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &120288
 GameObject:
   m_ObjectHideFlags: 1
@@ -360,6 +504,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &121076
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22434764}
+  - 114: {fileID: 11456530}
+  m_Layer: 5
+  m_Name: Dialog (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &121224
 GameObject:
   m_ObjectHideFlags: 1
@@ -370,7 +530,23 @@ GameObject:
   - 224: {fileID: 22432124}
   - 114: {fileID: 11425200}
   m_Layer: 5
-  m_Name: Dialog (13)
+  m_Name: Dialog (24)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &121248
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22480646}
+  - 114: {fileID: 11407028}
+  m_Layer: 5
+  m_Name: Dialog (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +578,55 @@ GameObject:
   - 224: {fileID: 22480554}
   - 114: {fileID: 11469282}
   m_Layer: 5
-  m_Name: Anti-Suffrage Event
+  m_Name: George's Death Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &123488
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22424092}
+  - 114: {fileID: 11464106}
+  m_Layer: 5
+  m_Name: Dialog (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &124596
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22434102}
+  - 114: {fileID: 11438198}
+  m_Layer: 5
+  m_Name: Event Unlocked Condition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &124966
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22440310}
+  - 114: {fileID: 11473124}
+  m_Layer: 5
+  m_Name: Dialog (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,6 +649,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &125434
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22439872}
+  - 114: {fileID: 11470848}
+  m_Layer: 5
+  m_Name: Dialog (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &126002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22472628}
+  - 114: {fileID: 11449050}
+  m_Layer: 5
+  m_Name: Dialog (14)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &126488
 GameObject:
   m_ObjectHideFlags: 1
@@ -439,6 +695,22 @@ GameObject:
   - 114: {fileID: 11480248}
   m_Layer: 5
   m_Name: Buy Book Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &126650
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22406434}
+  - 114: {fileID: 11426386}
+  m_Layer: 5
+  m_Name: Supply Condition (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -512,6 +784,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &130894
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22450906}
+  - 114: {fileID: 11475032}
+  m_Layer: 5
+  m_Name: Dialog (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &132814
 GameObject:
   m_ObjectHideFlags: 1
@@ -529,6 +817,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &134298
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22411270}
+  - 114: {fileID: 11454222}
+  m_Layer: 5
+  m_Name: Dialog (16)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &135570
 GameObject:
   m_ObjectHideFlags: 1
@@ -649,6 +953,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &138236
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22446422}
+  - 114: {fileID: 11465168}
+  m_Layer: 5
+  m_Name: Dialog (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &138314
 GameObject:
   m_ObjectHideFlags: 1
@@ -660,6 +980,22 @@ GameObject:
   - 114: {fileID: 11400584}
   m_Layer: 5
   m_Name: Dialog (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &138330
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22435164}
+  - 114: {fileID: 11404114}
+  m_Layer: 5
+  m_Name: Dialog (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -762,6 +1098,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &143058
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22401176}
+  - 114: {fileID: 11482208}
+  m_Layer: 5
+  m_Name: Dialog (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &143970
 GameObject:
   m_ObjectHideFlags: 1
@@ -788,7 +1140,7 @@ GameObject:
   - 224: {fileID: 22498774}
   - 114: {fileID: 11452220}
   m_Layer: 5
-  m_Name: Dialog (8)
+  m_Name: Dialog (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -827,6 +1179,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &146244
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22453038}
+  - 114: {fileID: 11472170}
+  m_Layer: 5
+  m_Name: Dialog (21)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &146522
 GameObject:
   m_ObjectHideFlags: 1
@@ -839,6 +1207,38 @@ GameObject:
   - 114: {fileID: 11465592}
   m_Layer: 5
   m_Name: Product Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &147912
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22404310}
+  - 114: {fileID: 11497478}
+  m_Layer: 5
+  m_Name: Dialog (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &148894
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22469104}
+  - 114: {fileID: 11414876}
+  m_Layer: 5
+  m_Name: Donate To YWCA Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -912,6 +1312,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &150270
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22483806}
+  - 114: {fileID: 11486854}
+  m_Layer: 5
+  m_Name: Dialog (20)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &150778
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22426770}
+  - 114: {fileID: 11452550}
+  m_Layer: 5
+  m_Name: Dialog (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &151032
 GameObject:
   m_ObjectHideFlags: 1
@@ -923,6 +1355,22 @@ GameObject:
   - 114: {fileID: 11471954}
   m_Layer: 5
   m_Name: Dialog (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &151102
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22454978}
+  - 114: {fileID: 11463082}
+  m_Layer: 5
+  m_Name: Dialog (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1032,6 +1480,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &153908
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22492652}
+  - 114: {fileID: 11448482}
+  m_Layer: 5
+  m_Name: Anti-Suffrage Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &154212
 GameObject:
   m_ObjectHideFlags: 1
@@ -1060,6 +1524,22 @@ GameObject:
   - 114: {fileID: 11449912}
   m_Layer: 5
   m_Name: Dialog (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &155206
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22404454}
+  - 114: {fileID: 11431402}
+  m_Layer: 5
+  m_Name: Anti-Suffrage Dialog
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1331,6 +1811,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &167762
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22479536}
+  - 114: {fileID: 11472636}
+  m_Layer: 5
+  m_Name: Dialog (17)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &168008
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22425466}
+  - 114: {fileID: 11434986}
+  m_Layer: 5
+  m_Name: Dialog (19)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &169730
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22421104}
+  - 114: {fileID: 11408196}
+  m_Layer: 5
+  m_Name: Event Unlocked Condition (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &170166
 GameObject:
   m_ObjectHideFlags: 1
@@ -1359,6 +1887,22 @@ GameObject:
   - 114: {fileID: 11492164}
   m_Layer: 5
   m_Name: Number Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &170964
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22476272}
+  - 114: {fileID: 11408334}
+  m_Layer: 5
+  m_Name: Dialog (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1398,6 +1942,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &171664
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22424486}
+  - 114: {fileID: 11459678}
+  m_Layer: 5
+  m_Name: Dialog (13)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &171836
 GameObject:
   m_ObjectHideFlags: 1
@@ -1409,6 +1969,22 @@ GameObject:
   - 114: {fileID: 11490620}
   m_Layer: 5
   m_Name: Dialog (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &171950
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22463488}
+  - 114: {fileID: 11422278}
+  m_Layer: 5
+  m_Name: Dialog (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1447,6 +2023,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &172404
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22422232}
+  - 114: {fileID: 11434252}
+  m_Layer: 5
+  m_Name: Dialog (22)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &172900
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,7 +2064,7 @@ GameObject:
   - 224: {fileID: 22459904}
   - 114: {fileID: 11457888}
   m_Layer: 5
-  m_Name: Event Unlocked Condition (1)
+  m_Name: Event Unlocked Condition (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1546,6 +2138,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &176954
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22453778}
+  - 114: {fileID: 11447448}
+  m_Layer: 5
+  m_Name: Unlock YWCA Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &177452
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22497746}
+  - 114: {fileID: 11413386}
+  m_Layer: 5
+  m_Name: Dialog (23)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &178262
 GameObject:
   m_ObjectHideFlags: 1
@@ -1610,6 +2234,38 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &179778
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22492762}
+  - 114: {fileID: 11422114}
+  m_Layer: 5
+  m_Name: Dialog (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &180262
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22444240}
+  - 114: {fileID: 11493620}
+  m_Layer: 5
+  m_Name: Event Unlocked Condition (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &180378
 GameObject:
   m_ObjectHideFlags: 1
@@ -1660,6 +2316,54 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &181108
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22468932}
+  - 114: {fileID: 11486756}
+  m_Layer: 5
+  m_Name: Event Unlocked Condition (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &181742
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22434312}
+  - 114: {fileID: 11481430}
+  m_Layer: 5
+  m_Name: Dialog (10)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183198
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22436572}
+  - 114: {fileID: 11445162}
+  m_Layer: 5
+  m_Name: Dialog (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &183206
 GameObject:
   m_ObjectHideFlags: 1
@@ -1689,6 +2393,22 @@ GameObject:
   - 114: {fileID: 11447686}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &184630
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22437730}
+  - 114: {fileID: 11449876}
+  m_Layer: 5
+  m_Name: Dialog (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1754,7 +2474,23 @@ GameObject:
   - 224: {fileID: 22426422}
   - 114: {fileID: 11428354}
   m_Layer: 5
-  m_Name: Unlock YWCA Event
+  m_Name: Unlock MWFI Event
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &186524
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22403200}
+  - 114: {fileID: 11476456}
+  m_Layer: 5
+  m_Name: Dialog (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1920,6 +2656,22 @@ GameObject:
   - 114: {fileID: 11470886}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193848
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22455230}
+  - 114: {fileID: 11405348}
+  m_Layer: 5
+  m_Name: Event Unlocked Condition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2118,8 +2870,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: And what happened?
+  character: 4
+  text: I figured this was a good way to leave him in the dark, so I joined in.
 --- !u!114 &11403700
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2132,7 +2884,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: It's been bothering me lately.
+  text: Given today's headlines, I assume George did the same to you.
+--- !u!114 &11404114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: And I looked at all those poor women in the audience before proclaiming they
+    don't deserve the rights.
 --- !u!114 &11404346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2176,6 +2942,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Book ({0}):'
+--- !u!114 &11405348
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508f10ef1e077541980fc958ff9334d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPreviousEvents:
+  - {fileID: 11405578}
 --- !u!114 &11405578
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2192,7 +2971,7 @@ MonoBehaviour:
   group: {fileID: 0}
   conversation: {fileID: 11404346}
   changeHusbandIncome: 0
-  husbandIncomeCents: 10000
+  husbandIncomeCents: 1000
   increaseAccount: 0
   increaseCents: 3500000
 --- !u!114 &11405726
@@ -2213,6 +2992,19 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!114 &11407028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: I love you too, George.
 --- !u!114 &11407386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2237,8 +3029,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 4
-  text: Thought it was the least I could do to help those poor souls.
+  character: 1
+  text: But, Mary!  You're-
+--- !u!114 &11408196
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508f10ef1e077541980fc958ff9334d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPreviousEvents:
+  - {fileID: 11447448}
 --- !u!114 &11408282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2252,6 +3057,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: '...what''s wrong?'
+--- !u!114 &11408334
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: I've recently visited some apartments reserved for those dress manufactoring
+    employees.
 --- !u!114 &11409658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2267,7 +3086,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11468268}
   cost:
     units: 0
-    quantity: 11499
+    quantity: 9999
   gain:
     units: 4
     quantity: 1
@@ -2341,8 +3160,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: Amanda, can I ask you a favor?
+  character: 3
+  text: Are you Mrs. Amanda Cruett?
 --- !u!114 &11411454
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2355,7 +3174,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 0
-  text: '"We deserve the right to vote," huh? Not in a million years.'
+  text: '"We deserve the right to vote," huh?
+
+    Not in a million years.'
 --- !u!114 &11412538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2367,8 +3188,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: I want you to join me in an Anti-Suffrage movement.
+  character: 3
+  text: I'm afraid I have some bad news, Mrs. Cruett.
+--- !u!114 &11413386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Thank you. I couldn't do this without you.
 --- !u!114 &11413388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2436,6 +3270,17 @@ MonoBehaviour:
   m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
+--- !u!114 &11414876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51809f60e023997408a4c68087a590cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11415132
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2449,6 +3294,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: Alright, I'll bring it here in a minute!
+--- !u!114 &11416312
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Hello, Mary. Good to see you again!
 --- !u!114 &11416384
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2609,8 +3467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: I've recently visited some apartments reserved for those dress manufactoring
-    employees.
+  text: You're going a little too fast. Can you start back from the top?
 --- !u!114 &11420772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2708,6 +3565,32 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Donate {0} Furniture
+--- !u!114 &11422114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: '...'
+--- !u!114 &11422278
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: You mean that rally opposing woman's rights?
 --- !u!114 &11422698
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2790,8 +3673,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: I love you too, George.
+  character: 3
+  text: Yes. He left you a will.
 --- !u!114 &11423920
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2884,8 +3767,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: Mary, you're a wonderful person.
+  character: 4
+  text: You're an amazing person, Amanda. Has anyone else told you that?
+--- !u!114 &11426386
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e785ae4e37269241859be0738da18b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  supplyCheck:
+  - units: 6
+    quantity: 300
 --- !u!114 &11426396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3015,8 +3912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentPanel: {fileID: 11426510}
-  storedKey: unlock ywca
-  group: {fileID: 11433146}
+  storedKey: unlock mwfi
+  group: {fileID: 11452448}
   conversation: {fileID: 11465120}
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
@@ -3051,8 +3948,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: '...You mean that anti-women rights rally?'
+  character: 3
+  text: Your husband, George Cruett, has recently been in an accident, and passed
+    away.
 --- !u!114 &11430898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3084,6 +3982,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: Oh, just a bit of trouble with my employees.
+--- !u!114 &11431402
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51809f60e023997408a4c68087a590cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11432852
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3145,7 +4054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPreviousEvents:
-  - {fileID: 11405578}
+  - {fileID: 11448482}
 --- !u!114 &11433590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3158,10 +4067,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   supplyCheck:
-  - units: 3
-    quantity: 1
-  - units: 4
-    quantity: 1
+  - units: 6
+    quantity: 400
+  - units: 0
+    quantity: 500000
+--- !u!114 &11434252
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Of course, Mary.
+--- !u!114 &11434986
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: What those girls need to fight against those stubborn men are good education
+    and real-world skill sets.
 --- !u!114 &11435044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3174,7 +4110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: Oh, dear...
+  text: What do you mean, "that's it?"
 --- !u!114 &11435618
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3193,6 +4129,19 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
+--- !u!114 &11438198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508f10ef1e077541980fc958ff9334d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPreviousEvents:
+  - {fileID: 11420842}
 --- !u!114 &11438932
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3236,8 +4185,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 4
-  text: Well, nothing bad really. I was simply curious how it was like.
+  character: 1
+  text: It just makes me feel like a big traitor.
 --- !u!114 &11441728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3262,8 +4211,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: Hello, Mary. Good to see you again!
+  character: 4
+  text: Oh, Amanda! What happened to you!?
 --- !u!114 &11443092
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3309,6 +4258,19 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Victory Points:'
+--- !u!114 &11445162
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: It'll help keep our business running smoothly.
 --- !u!114 &11445942
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3335,7 +4297,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   supplyCheck:
   - units: 6
-    quantity: 250
+    quantity: 900
 --- !u!114 &11446338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3395,6 +4357,25 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11447448
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2302a88d4526c8649bbfc2bf6e507014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  storedKey: unlock ywca
+  group: {fileID: 11433146}
+  conversation: {fileID: 11414876}
+  changeHusbandIncome: 0
+  husbandIncomeCents: 10000
+  increaseAccount: 0
+  increaseCents: 3500000
 --- !u!114 &11447686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3439,7 +4420,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: Yes, dear?
+  text: Yes, that's me.
+--- !u!114 &11448482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2302a88d4526c8649bbfc2bf6e507014, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  storedKey: anti-suffrage
+  group: {fileID: 0}
+  conversation: {fileID: 11431402}
+  changeHusbandIncome: 1
+  husbandIncomeCents: 10000
+  increaseAccount: 0
+  increaseCents: 3500000
 --- !u!114 &11448528
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3526,6 +4526,46 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11449050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: And what happened?
+--- !u!114 &11449582
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: They provide safer housing and services to the same women who make our dresses.
+--- !u!114 &11449876
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: You know those Irish women you see walking around the streets. They live in
+    there.
 --- !u!114 &11449912
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3537,8 +4577,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 1
-  text: '...'
+  character: 3
+  text: I'm so sorry, Mrs. Cruett.
 --- !u!114 &11449916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3651,7 +4691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: '...Fine, I''ll join you.'
+  text: Fine, I'll join you.
 --- !u!114 &11452238
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3687,6 +4727,19 @@ MonoBehaviour:
   - {fileID: 11484026}
   - {fileID: 11422698}
   - {fileID: 11495766}
+--- !u!114 &11452550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Well, nothing bad really. I was simply curious how it was like.
 --- !u!114 &11453244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3701,6 +4754,19 @@ MonoBehaviour:
   allPreviousEvents:
   - {fileID: 11420842}
   - {fileID: 11475790}
+--- !u!114 &11454222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Let me know if I can help.
 --- !u!114 &11455394
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3713,7 +4779,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: '...What''s wrong? You look serious.'
+  text: I'm so sorry, Mary. I'm such a terrible person.
 --- !u!114 &11455422
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3752,6 +4818,45 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51809f60e023997408a4c68087a590cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11456530
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: '...Oh, I''ve also increase the rate I''m depositing your account.'
+--- !u!114 &11456534
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Anyway, I've started donating to the Young Women's Christian Association.
+--- !u!114 &11457340
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: My husband kept begging me to join in the rally.
 --- !u!114 &11457484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3777,7 +4882,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPreviousEvents:
-  - {fileID: 11475790}
+  - {fileID: 11405578}
 --- !u!114 &11458478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3820,7 +4925,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: I just couldn't believe how unsanitary those apartments were.
+  text: And that's it?
+--- !u!114 &11459678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Mary, you're a wonderful person.
 --- !u!114 &11460258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3898,6 +5016,19 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
+--- !u!114 &11463082
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: We don't want any disruptions to happen, right?
 --- !u!114 &11463282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3938,6 +5069,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: Nothing serious.
+--- !u!114 &11464106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: It's been bothering me lately.
 --- !u!114 &11464482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3980,6 +5124,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: Hello, Mary.
+--- !u!114 &11465168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Is there anything else I should know?
 --- !u!114 &11465592
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4120,9 +5277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 4
-  text: You know those dirty Irish women you see walking around the streets. They
-    live in there.
+  character: 1
+  text: Well, I was at that Anti-Suffrage rally yesterday, to voiced my support.
 --- !u!114 &11467472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4188,6 +5344,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: '...'
+--- !u!114 &11468218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e785ae4e37269241859be0738da18b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  supplyCheck:
+  - units: 3
+    quantity: 2
+  - units: 4
+    quantity: 1
 --- !u!114 &11468268
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4304,12 +5476,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentPanel: {fileID: 11426510}
-  storedKey: anti-suffrage
+  storedKey: georges death
   group: {fileID: 0}
   conversation: {fileID: 11478240}
   changeHusbandIncome: 1
-  husbandIncomeCents: 10000
-  increaseAccount: 0
+  husbandIncomeCents: 0
+  increaseAccount: 1
   increaseCents: 3500000
 --- !u!114 &11469864
 MonoBehaviour:
@@ -4342,6 +5514,19 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!114 &11470848
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: '...'
 --- !u!114 &11470886
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4385,8 +5570,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: Yes, that one.
+  character: 1
+  text: '*Gasp*'
+--- !u!114 &11472170
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: I need a lot of supplies to make this possible. Will you help me?
+--- !u!114 &11472636
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Anyway, I'm working on a bigger project, and I need your help.
 --- !u!114 &11472998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4407,6 +5618,19 @@ MonoBehaviour:
   m_Spacing: 5
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
+--- !u!114 &11473124
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Yes, dear?
 --- !u!114 &11473838
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4419,7 +5643,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: They provide safer housing and services to the same women who make our dresses.
+  text: <i>I was in the same rally, too.</i>
+--- !u!114 &11474002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Yes?
 --- !u!114 &11474490
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4439,6 +5676,19 @@ MonoBehaviour:
   gain:
     units: 6
     quantity: 5
+--- !u!114 &11475032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: '...'
 --- !u!114 &11475274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4505,6 +5755,19 @@ MonoBehaviour:
   husbandIncomeCents: 10000
   increaseAccount: 0
   increaseCents: 3500000
+--- !u!114 &11476456
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: Yes, that one.
 --- !u!114 &11476656
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4611,7 +5874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allPreviousEvents:
-  - {fileID: 11420842}
+  - {fileID: 11447448}
 --- !u!114 &11481242
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4625,6 +5888,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 4
   text: Oh, hi Amanda!
+--- !u!114 &11481430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Thought it was the least I could do to help those poor souls.
 --- !u!114 &11481590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4675,6 +5951,19 @@ MonoBehaviour:
   gain:
     units: 6
     quantity: 40
+--- !u!114 &11482208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: Oh, dear...
 --- !u!114 &11482270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4772,7 +6061,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11466340}
   cost:
     units: 0
-    quantity: 3999
+    quantity: 2999
   gain:
     units: 3
     quantity: 1
@@ -4821,6 +6110,32 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Donate {0} Book
+--- !u!114 &11486756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508f10ef1e077541980fc958ff9334d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPreviousEvents:
+  - {fileID: 11475790}
+--- !u!114 &11486854
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: Thus, I'm building a free institution for women.
 --- !u!114 &11487188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4976,6 +6291,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: Heh, I've got so many, I don't even know what to do with them.
+--- !u!114 &11489212
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 1
+  text: '...What''s wrong? You look serious.'
 --- !u!114 &11489434
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4994,6 +6322,19 @@ MonoBehaviour:
   m_PreferredHeight: 165
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!114 &11489818
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: Amanda, can I ask you a favor?
 --- !u!114 &11490620
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5005,8 +6346,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: It'll help keep our business running smoothly.
+  character: 1
+  text: '...'
 --- !u!114 &11491930
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5069,7 +6410,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: Anyway, I've started donating to the Young Women's Christian Association.
+  text: Amanda.
+--- !u!114 &11493470
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 0
+  text: I want you to join me in an Anti-Suffrage movement.
 --- !u!114 &11493558
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5135,6 +6489,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allPreviousEvents:
   - {fileID: 11428354}
+--- !u!114 &11493620
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4508f10ef1e077541980fc958ff9334d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allPreviousEvents:
+  - {fileID: 11448482}
 --- !u!114 &11494538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5143,11 +6510,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 141968}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Script: {fileID: 11500000, guid: 1b91d02a557bfb9439e766d18bf00306, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: '...Oh, I''ll also increase the rate I''m depositing your account.'
+  character: 3
+  text: You'll be granted {0}.
+  panel: {fileID: 11426510}
+  georgesWill: {fileID: 11469282}
 --- !u!114 &11494938
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5250,6 +6619,19 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11497478
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: 4
+  text: I just couldn't believe how unsanitary those apartments were.
 --- !u!114 &11498236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5325,8 +6707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  character: 0
-  text: We don't want any disruptions to happen, right?
+  character: 1
+  text: No, it's all right.
 --- !u!114 &11498830
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5640,6 +7022,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22401176
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 143058}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22401988
 RectTransform:
   m_ObjectHideFlags: 1
@@ -5675,6 +7074,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22403200
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 186524}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22404252
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22404260
 RectTransform:
   m_ObjectHideFlags: 1
@@ -5691,6 +7124,53 @@ RectTransform:
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22404310
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 147912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 6
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22404454
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 155206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22476260}
+  - {fileID: 22440310}
+  - {fileID: 22404252}
+  - {fileID: 22463488}
+  - {fileID: 22403200}
+  - {fileID: 22450906}
+  - {fileID: 22436572}
+  - {fileID: 22454978}
+  - {fileID: 22492762}
+  - {fileID: 22498774}
+  - {fileID: 22451958}
+  - {fileID: 22480646}
+  - {fileID: 22434764}
+  m_Father: {fileID: 22448922}
+  m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
@@ -5723,6 +7203,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22468026}
   m_RootOrder: 11
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22406434
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22492652}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -5815,6 +7312,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22410398
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100304}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.07288361e-06}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22410724
 RectTransform:
   m_ObjectHideFlags: 1
@@ -5827,6 +7341,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22480554}
   m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22411270
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 13
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -5952,6 +7483,23 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -10, y: 35}
   m_Pivot: {x: .5, y: 1}
+--- !u!224 &22419052
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 111248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 16
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22419686
 RectTransform:
   m_ObjectHideFlags: 1
@@ -5964,6 +7512,40 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22434476}
   m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22421104
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22492652}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22422232
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172404}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 20
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6016,6 +7598,57 @@ RectTransform:
   m_Father: {fileID: 22459366}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: .925000012}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22424092
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 123488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 8
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22424486
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 12
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22425466
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 168008}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 17
+  m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -6084,9 +7717,26 @@ RectTransform:
   m_Children:
   - {fileID: 22417942}
   - {fileID: 22441438}
-  - {fileID: 22459904}
+  - {fileID: 22444240}
   m_Father: {fileID: 22475602}
-  m_RootOrder: 3
+  m_RootOrder: 6
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22426770
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6127,12 +7777,28 @@ RectTransform:
   - {fileID: 22445982}
   - {fileID: 22487064}
   - {fileID: 22400802}
-  - {fileID: 22498774}
-  - {fileID: 22451958}
+  - {fileID: 22446422}
   - {fileID: 22445350}
   - {fileID: 22457268}
   m_Father: {fileID: 22448922}
-  m_RootOrder: 3
+  m_RootOrder: 5
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22429108
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 102088}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22453778}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6237,7 +7903,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 12
+  m_RootOrder: 22
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6279,6 +7945,40 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22434102
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124596}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22453778}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22434312
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181742}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 11
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22434476
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6305,6 +8005,57 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 6.10351562e-05}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22434764
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121076}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 12
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22435164
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138330}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22435724
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 119230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 9
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22436024
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6322,6 +8073,23 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22436572
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183198}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 6
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22437122
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6334,6 +8102,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22488710}
   m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22437730
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 184630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6356,6 +8141,40 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -10, y: 35}
   m_Pivot: {x: .5, y: 1}
+--- !u!224 &22439872
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 125434}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 14
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22440310
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22441438
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6390,6 +8209,40 @@ RectTransform:
   m_AnchoredPosition: {x: 5, y: -1.57356262e-05}
   m_SizeDelta: {x: -10, y: -3.14712524e-05}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22443046
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 10
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22444240
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 180262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22426422}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22444634
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6401,7 +8254,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 8
+  m_RootOrder: 13
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6418,7 +8271,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22427744}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6453,6 +8306,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22434476}
   m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22446422
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138236}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22427744}
+  m_RootOrder: 8
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6541,11 +8411,30 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22434476}
-  - {fileID: 22488710}
   - {fileID: 22468026}
+  - {fileID: 22469104}
+  - {fileID: 22404454}
+  - {fileID: 22488710}
   - {fileID: 22427744}
   m_Father: {fileID: 22485822}
   m_RootOrder: 6
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22450906
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 130894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6569,6 +8458,23 @@ RectTransform:
   m_AnchoredPosition: {x: 118.499992, y: -102.5}
   m_SizeDelta: {x: 236.999985, y: 35}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22451956
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101448}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22451958
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6579,8 +8485,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 22427744}
-  m_RootOrder: 9
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 10
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6604,6 +8510,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22453038
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 146244}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 19
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22453228
 RectTransform:
   m_ObjectHideFlags: 1
@@ -6621,6 +8544,61 @@ RectTransform:
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 118.499992, y: -142.5}
   m_SizeDelta: {x: 236.999985, y: 35}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22453778
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 176954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22429108}
+  - {fileID: 22434102}
+  - {fileID: 22468932}
+  - {fileID: 22459904}
+  m_Father: {fileID: 22475602}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22454978
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151102}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22455230
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193848}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22492652}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22455418
 RectTransform:
@@ -6707,7 +8685,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22427744}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6795,8 +8773,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 22426422}
-  m_RootOrder: 2
+  m_Father: {fileID: 22453778}
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -6869,6 +8847,23 @@ RectTransform:
   m_AnchorMax: {x: .699999988, y: 1}
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -10, y: -10}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22463488
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 171950}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22463504
 RectTransform:
@@ -7068,7 +9063,7 @@ RectTransform:
   - {fileID: 22422486}
   - {fileID: 22405512}
   m_Father: {fileID: 22448922}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7091,6 +9086,54 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22468932
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22453778}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22469104
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 148894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22410398}
+  - {fileID: 22451956}
+  - {fileID: 22476272}
+  - {fileID: 22437730}
+  - {fileID: 22472628}
+  - {fileID: 22426770}
+  - {fileID: 22404310}
+  - {fileID: 22401176}
+  - {fileID: 22424092}
+  - {fileID: 22435724}
+  - {fileID: 22443046}
+  - {fileID: 22434312}
+  - {fileID: 22424486}
+  - {fileID: 22411270}
+  m_Father: {fileID: 22448922}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22471052
 RectTransform:
   m_ObjectHideFlags: 1
@@ -7103,7 +9146,7 @@ RectTransform:
   m_Children:
   - {fileID: 22472034}
   m_Father: {fileID: 22475602}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7121,6 +9164,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22471052}
   m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22472628
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7191,8 +9251,10 @@ RectTransform:
   - {fileID: 22431320}
   - {fileID: 22451986}
   - {fileID: 22409956}
-  - {fileID: 22426422}
   - {fileID: 22471052}
+  - {fileID: 22453778}
+  - {fileID: 22492652}
+  - {fileID: 22426422}
   - {fileID: 22480554}
   m_Father: {fileID: 22485822}
   m_RootOrder: 5
@@ -7216,6 +9278,40 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: .925000012}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22476260
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 115630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1.07288361e-06}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22476272
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 170964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22469104}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
@@ -7255,6 +9351,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22479536
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 15
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22479940
 RectTransform:
   m_ObjectHideFlags: 1
@@ -7266,7 +9379,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7283,7 +9396,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7317,7 +9430,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7337,7 +9450,24 @@ RectTransform:
   - {fileID: 22459714}
   - {fileID: 22483692}
   m_Father: {fileID: 22475602}
-  m_RootOrder: 5
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22480646
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 121248}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 11
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7355,6 +9485,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22427744}
   m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22482872
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114830}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 11
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7389,6 +9536,23 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22480554}
   m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22483806
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150270}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 18
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7537,17 +9701,27 @@ RectTransform:
   - {fileID: 22437122}
   - {fileID: 22477760}
   - {fileID: 22463624}
-  - {fileID: 22499334}
+  - {fileID: 22435164}
   - {fileID: 22426984}
   - {fileID: 22425888}
   - {fileID: 22448504}
-  - {fileID: 22444634}
   - {fileID: 22479940}
   - {fileID: 22480548}
   - {fileID: 22479942}
+  - {fileID: 22482872}
+  - {fileID: 22499334}
+  - {fileID: 22444634}
+  - {fileID: 22439872}
+  - {fileID: 22479536}
+  - {fileID: 22419052}
+  - {fileID: 22425466}
+  - {fileID: 22483806}
+  - {fileID: 22453038}
+  - {fileID: 22422232}
+  - {fileID: 22497746}
   - {fileID: 22432124}
   m_Father: {fileID: 22448922}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7638,6 +9812,43 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -1.07288361e-06}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22492652
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 153908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22406434}
+  - {fileID: 22455230}
+  - {fileID: 22421104}
+  m_Father: {fileID: 22475602}
+  m_RootOrder: 5
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22492762
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179778}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 8
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22494642
 RectTransform:
   m_ObjectHideFlags: 1
@@ -7690,6 +9901,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 45}
   m_Pivot: {x: .5, y: 1}
+--- !u!224 &22497746
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 177452}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22488710}
+  m_RootOrder: 21
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22498774
 RectTransform:
   m_ObjectHideFlags: 1
@@ -7700,8 +9928,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 22427744}
-  m_RootOrder: 8
+  m_Father: {fileID: 22404454}
+  m_RootOrder: 9
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -7735,7 +9963,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 4
+  m_RootOrder: 12
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}

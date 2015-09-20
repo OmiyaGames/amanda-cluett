@@ -7,11 +7,11 @@ public class DialogPanel : MonoBehaviour
 {
     public enum Character
     {
-        Husband,
-        Wife,
+        GeorgeCuett,
+        AmandaCuett,
         Narrator,
         Messenger,
-        Friend
+        MaryWarren
     }
 
     [System.Serializable]
