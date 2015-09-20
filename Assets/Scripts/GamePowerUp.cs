@@ -140,7 +140,7 @@ public class GamePowerUp : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnUnitsChange (GamePanel panel)
+    public void OnUnitsChange (GamePanel panel)
     {
         // Check for the quantity
         currentQuantity = -1;

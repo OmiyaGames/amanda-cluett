@@ -12,6 +12,10 @@ public class GamePowerUpGroup : MonoBehaviour
     [SerializeField]
     Text unitsLabel = null;
 
+    [Header("Stuff to update on Unlock")]
+    [SerializeField]
+    GamePowerUp[] allPowerUps = null;
+
     string originalProductString = null;
     System.Action<GamePanel> unitsChanged = null;
     int currentQuantity = -1;
@@ -20,6 +24,10 @@ public class GamePowerUpGroup : MonoBehaviour
     {
         gameObject.SetActive(true);
         OnUnitsChange(panel);
+        for(currentQuantity = 0; currentQuantity < allPowerUps.Length; ++currentQuantity)
+        {
+            allPowerUps[currentQuantity].OnUnitsChange(panel);
+        }
     }
 
     // Use this for initialization

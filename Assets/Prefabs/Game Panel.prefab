@@ -2106,6 +2106,7 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 2
   unitsLabel: {fileID: 11475274}
+  allPowerUps: []
 --- !u!114 &11402736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2131,7 +2132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: It's just been bothering me lately.
+  text: It's been bothering me lately.
 --- !u!114 &11404346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2237,7 +2238,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: Thought it was the least I could do.
+  text: Thought it was the least I could do to help those poor souls.
 --- !u!114 &11408282
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2818,6 +2819,8 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 3
   unitsLabel: {fileID: 11448528}
+  allPowerUps:
+  - {fileID: 11486072}
 --- !u!114 &11424814
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3125,6 +3128,9 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 0
   unitsLabel: {fileID: 0}
+  allPowerUps:
+  - {fileID: 11432852}
+  - {fileID: 11418576}
 --- !u!114 &11433396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3674,6 +3680,11 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 0
   unitsLabel: {fileID: 0}
+  allPowerUps:
+  - {fileID: 11482160}
+  - {fileID: 11484026}
+  - {fileID: 11422698}
+  - {fileID: 11495766}
 --- !u!114 &11453244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3779,6 +3790,8 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 4
   unitsLabel: {fileID: 11465592}
+  allPowerUps:
+  - {fileID: 11409658}
 --- !u!114 &11459236
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3791,8 +3804,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 0
-  text: Yeah. Sometimes, I feel like they don't understand how much work goes into
-    conducting a business.
+  text: Yeah. Sometimes, I feel like they don't understand how difficult it is to
+    maintain a business.
 --- !u!114 &11459416
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4106,7 +4119,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: You know, those Irish women you see walking in large groups around the streets.
+  text: You know those dirty Irish women you see walking around the streets. They
+    live in there.
 --- !u!114 &11467472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4469,6 +4483,7 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 1
   unitsLabel: {fileID: 11405048}
+  allPowerUps: []
 --- !u!114 &11475790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5145,6 +5160,8 @@ MonoBehaviour:
   parentPanel: {fileID: 11426510}
   units: 0
   unitsLabel: {fileID: 0}
+  allPowerUps:
+  - {fileID: 11474490}
 --- !u!114 &11495766
 MonoBehaviour:
   m_ObjectHideFlags: 1
