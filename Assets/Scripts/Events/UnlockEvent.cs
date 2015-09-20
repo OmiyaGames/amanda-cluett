@@ -56,7 +56,7 @@ public class UnlockEvent : MonoBehaviour
         isUnlocked = (PlayerPrefs.GetInt(PlayerPrefsKey, 0) != 0);
         if(isUnlocked == true)
         {
-            UnlockEverything();
+            UnlockEverything(true);
         }
         else
         {
@@ -89,11 +89,15 @@ public class UnlockEvent : MonoBehaviour
             }
         }
 
-        // If so, unlock everything!
-        UnlockEverything();
+        //Debug.Log("Unlock: " + gameObject.name + " is " + allConditionsPassed);
+        if(allConditionsPassed == true)
+        {
+            // If so, unlock everything!
+            UnlockEverything(false);
+        }
     }
 
-    void UnlockEverything()
+    void UnlockEverything(bool onStart)
     {
         if(isUnlocked == false)
         {
@@ -105,7 +109,7 @@ public class UnlockEvent : MonoBehaviour
             OnDestroy();
 
             // Check to see if there's a conversation to unlock first
-            if (conversation != null)
+            if ((onStart == false) && (conversation != null))
             {
                 parentPanel.Dialog.ShowDialog(conversation, UnlockGroup);
             }

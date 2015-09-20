@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using OmiyaGames;
 
 public class GamePowerUp : MonoBehaviour
 {
@@ -21,6 +22,19 @@ public class GamePowerUp : MonoBehaviour
 
     int currentQuantity = -1;
     System.Action<GamePanel> unitsChanged = null;
+    static SoundEffect sound = null;
+
+    static SoundEffect Sound
+    {
+        get
+        {
+            if(sound == null)
+            {
+                sound = Singleton.Get<MenuManager>().ButtonClick;
+            }
+            return sound;
+        }
+    }
 
     public void OnClick()
     {
@@ -63,6 +77,9 @@ public class GamePowerUp : MonoBehaviour
                 parentPanel.CurrentSewingMachines -= cost.quantity;
                 break;
         }
+
+        // Play sound effect
+        Sound.Play();
     }
 
     // Use this for initialization
