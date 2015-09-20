@@ -94,11 +94,12 @@ public class DialogPanel : MonoBehaviour
         if(Singleton.Get<GameSettings>().Status == GameSettings.AppStatus.FirstTimeOpened)
         {
             // Start the initial dialog
-            ShowDialog(initialDialogs, game.Resume);
+            ShowDialog(initialDialogs);
         }
         else
         {
-            game.Resume(this);
+            // Hide this dialog
+            HideDialog();
         }
     }
 
@@ -112,6 +113,9 @@ public class DialogPanel : MonoBehaviour
         // Update the present text
         presentText.text = CurrentDialog.Text;
         presentText.color = characterTextColorMap[CurrentDialog.Character];
+
+        // Make time stop
+        game.Pause();
 
         // Play an animation
         animator.SetBool(visibleBoolField, true);
@@ -136,18 +140,28 @@ public class DialogPanel : MonoBehaviour
             else
             {
                 // Hide the dialog
-                if(OnClose != null)
-                {
-                    OnClose(this);
-                }
-
-                // Play an animation
-                animator.SetBool(visibleBoolField, false);
+                HideDialog();
             }
 
             // Play sound
             PlaySound();
         }
+    }
+
+    void HideDialog()
+    {
+        // Run the close event, if there's any
+        if (OnClose != null)
+        {
+            OnClose(this);
+            OnClose = null;
+        }
+
+        // Make time resume
+        game.Resume();
+
+        // Play an animation
+        animator.SetBool(visibleBoolField, false);
     }
 
     public void SwapText()

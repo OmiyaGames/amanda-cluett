@@ -192,7 +192,7 @@ public class GamePanel : MonoBehaviour
         lastStarted = -1f;
     }
 
-    public void Resume(DialogPanel panel)
+    public void Resume()
     {
         lastStarted = Time.time;
         if(lastStarted < 0.1f)
@@ -215,6 +215,13 @@ public class GamePanel : MonoBehaviour
         tempDisplay = (cents % 100);
         builder.Append('.');
         builder.Append(tempDisplay.ToString("00"));
+        return builder.ToString();
+    }
+
+    public string UnitsToString(string format, int units)
+    {
+        builder.Length = 0;
+        builder.AppendFormat(format, units);
         return builder.ToString();
     }
 

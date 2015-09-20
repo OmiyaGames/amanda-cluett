@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
-using System.Collections.Generic;
 
 public class GamePowerUp : MonoBehaviour
 {
@@ -20,18 +19,58 @@ public class GamePowerUp : MonoBehaviour
     [SerializeField]
     Change gain;
 
-    Text powerUpLabel = null;
-    string originalProductString = null;
     int currentQuantity = -1;
-
     System.Action<GamePanel> unitsChanged = null;
+
+    public void OnClick()
+    {
+        // Reduce supply based on cost
+        switch (gain.units)
+        {
+            case GamePanel.Units.VictoryPoints:
+                parentPanel.CurrentVictoryPoints += gain.quantity;
+                break;
+            case GamePanel.Units.Books:
+                parentPanel.CurrentBooks += gain.quantity;
+                break;
+            case GamePanel.Units.Dresses:
+                parentPanel.CurrentDresses += gain.quantity;
+                break;
+            case GamePanel.Units.Furnitures:
+                parentPanel.CurrentFurnitures += gain.quantity;
+                break;
+            case GamePanel.Units.SewingMachines:
+                parentPanel.CurrentSewingMachines += gain.quantity;
+                break;
+        }
+
+        // Reduce supply based on cost
+        switch (cost.units)
+        {
+            case GamePanel.Units.Cents:
+                parentPanel.CurrentCurrencyCents -= cost.quantity;
+                break;
+            case GamePanel.Units.Books:
+                parentPanel.CurrentBooks -= cost.quantity;
+                break;
+            case GamePanel.Units.Dresses:
+                parentPanel.CurrentDresses -= cost.quantity;
+                break;
+            case GamePanel.Units.Furnitures:
+                parentPanel.CurrentFurnitures -= cost.quantity;
+                break;
+            case GamePanel.Units.SewingMachines:
+                parentPanel.CurrentSewingMachines -= cost.quantity;
+                break;
+        }
+    }
 
     // Use this for initialization
     void Awake ()
     {
         // Setup private variables
-        powerUpLabel = powerUpButton.GetComponentInChildren<Text>();
-        originalProductString = powerUpLabel.text;
+        Text powerUpLabel = powerUpButton.GetComponentInChildren<Text>();
+        string originalProductString = powerUpLabel.text;
 
         // Setup text
         string costText = cost.quantity.ToString();
@@ -108,7 +147,7 @@ public class GamePowerUp : MonoBehaviour
         }
 
         // See if we found the correct quantity
-        if(currentQuantity > 0)
+        if(currentQuantity >= 0)
         {
             powerUpButton.interactable = (currentQuantity >= cost.quantity);
         }
