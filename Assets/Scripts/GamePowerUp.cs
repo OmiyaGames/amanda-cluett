@@ -83,7 +83,7 @@ public class GamePowerUp : MonoBehaviour
     }
 
     // Use this for initialization
-    void Awake ()
+    public void Awake ()
     {
         // Setup private variables
         Text powerUpLabel = powerUpButton.GetComponentInChildren<Text>();

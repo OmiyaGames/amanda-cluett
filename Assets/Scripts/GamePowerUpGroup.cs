@@ -23,10 +23,12 @@ public class GamePowerUpGroup : MonoBehaviour
     public void Unlock(GamePanel panel)
     {
         gameObject.SetActive(true);
+        Awake();
         OnUnitsChange(panel);
         for(currentQuantity = 0; currentQuantity < allPowerUps.Length; ++currentQuantity)
         {
             allPowerUps[currentQuantity].OnUnitsChange(panel);
+            allPowerUps[currentQuantity].Awake();
         }
     }
 

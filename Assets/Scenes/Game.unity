@@ -888,6 +888,21 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22405340, guid: 7db1b36f0befa224fa9dd8e973d9334a,
     type: 2}
   m_PrefabInternal: {fileID: 676898178}
+--- !u!1 &868504467 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 107014, guid: ce312ccfd9b6a4747bbf5c27ed0d1926, type: 2}
+  m_PrefabInternal: {fileID: 481520929}
+--- !u!114 &868504468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 868504467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f253c0f474faa145b322f1494ea98b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &921143552
 Prefab:
   m_ObjectHideFlags: 0
