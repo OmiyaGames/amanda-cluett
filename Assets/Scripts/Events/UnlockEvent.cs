@@ -15,6 +15,14 @@ public class UnlockEvent : MonoBehaviour
     [SerializeField]
     DialogCollection conversation;
     // FIXME: consider unlocking news
+    [SerializeField]
+    bool changeHusbandIncome = false;
+    [SerializeField]
+    int husbandIncomeCents = 10000;
+    [SerializeField]
+    bool increaseAccount = false;
+    [SerializeField]
+    int increaseCents = 3500000;
 
     IEventCondition[] allConditionsToMeet = null;
     bool isUnlocked = false, allConditionsPassed = false;
@@ -99,7 +107,7 @@ public class UnlockEvent : MonoBehaviour
 
     void UnlockEverything(bool onStart)
     {
-        if(isUnlocked == false)
+        if((isUnlocked == false) || (onStart == true))
         {
             // Mark as unlocked
             isUnlocked = true;
@@ -127,6 +135,15 @@ public class UnlockEvent : MonoBehaviour
         if(group != null)
         {
             group.Unlock(parentPanel);
+        }
+
+        if(changeHusbandIncome == true)
+        {
+            parentPanel.HusbandsIncome = husbandIncomeCents;
+        }
+        if (increaseAccount == true)
+        {
+            parentPanel.CurrentCurrencyCents += increaseCents;
         }
 
         // FIXME: consider unlocking news here
