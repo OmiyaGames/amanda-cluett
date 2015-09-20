@@ -60,7 +60,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22447800}
   - 114: {fileID: 11429340}
-  - 114: {fileID: 11466342}
   m_Layer: 5
   m_Name: Library Stuff
   m_TagString: Untagged
@@ -113,6 +112,7 @@ GameObject:
   - 222: {fileID: 22266480}
   - 114: {fileID: 11462380}
   - 114: {fileID: 11466340}
+  - 114: {fileID: 11486072}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -129,7 +129,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22433574}
   - 114: {fileID: 11419246}
-  - 114: {fileID: 11470158}
   m_Layer: 5
   m_Name: Sewing Machine Buy
   m_TagString: Untagged
@@ -148,6 +147,7 @@ GameObject:
   - 222: {fileID: 22267890}
   - 114: {fileID: 11446686}
   - 114: {fileID: 11487548}
+  - 114: {fileID: 11480248}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -167,6 +167,7 @@ GameObject:
   - 114: {fileID: 11410220}
   - 114: {fileID: 11467472}
   - 114: {fileID: 11430898}
+  - 114: {fileID: 11418576}
   m_Layer: 5
   m_Name: Button (1)
   m_TagString: Untagged
@@ -183,7 +184,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22457560}
   - 114: {fileID: 11464482}
-  - 114: {fileID: 11471220}
   m_Layer: 5
   m_Name: YWCA Stuff
   m_TagString: Untagged
@@ -219,6 +219,7 @@ GameObject:
   - 222: {fileID: 22281564}
   - 114: {fileID: 11463282}
   - 114: {fileID: 11422898}
+  - 114: {fileID: 11426396}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -235,7 +236,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22484610}
   - 114: {fileID: 11462902}
-  - 114: {fileID: 11426828}
   m_Layer: 5
   m_Name: Books Buy
   m_TagString: Untagged
@@ -254,6 +254,7 @@ GameObject:
   - 222: {fileID: 22235576}
   - 114: {fileID: 11487968}
   - 114: {fileID: 11468268}
+  - 114: {fileID: 11409658}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -324,6 +325,7 @@ GameObject:
   - 114: {fileID: 11455422}
   - 114: {fileID: 11451984}
   - 114: {fileID: 11405726}
+  - 114: {fileID: 11422698}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -376,6 +378,7 @@ GameObject:
   - 114: {fileID: 11448588}
   - 114: {fileID: 11493558}
   - 114: {fileID: 11491930}
+  - 114: {fileID: 11432852}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -395,8 +398,9 @@ GameObject:
   - 114: {fileID: 11418034}
   - 114: {fileID: 11424814}
   - 114: {fileID: 11428256}
+  - 114: {fileID: 11495766}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -463,6 +467,7 @@ GameObject:
   - 114: {fileID: 11496244}
   - 114: {fileID: 11484546}
   - 114: {fileID: 11428276}
+  - 114: {fileID: 11474490}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -499,6 +504,7 @@ GameObject:
   - 114: {fileID: 11497180}
   - 114: {fileID: 11400292}
   - 114: {fileID: 11469880}
+  - 114: {fileID: 11482160}
   m_Layer: 5
   m_Name: Button (2)
   m_TagString: Untagged
@@ -682,7 +688,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22476294}
   - 114: {fileID: 11488412}
-  - 114: {fileID: 11492080}
   m_Layer: 5
   m_Name: Dress Buy
   m_TagString: Untagged
@@ -767,7 +772,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22430258}
   - 114: {fileID: 11489434}
-  - 114: {fileID: 11429864}
   m_Layer: 5
   m_Name: Institute Stuff
   m_TagString: Untagged
@@ -817,7 +821,6 @@ GameObject:
   m_Component:
   - 224: {fileID: 22447976}
   - 114: {fileID: 11481590}
-  - 114: {fileID: 11443310}
   m_Layer: 5
   m_Name: Furniture Buy
   m_TagString: Untagged
@@ -854,6 +857,43 @@ GameObject:
   - 114: {fileID: 11465708}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &193474
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22495290}
+  - 222: {fileID: 22269864}
+  - 114: {fileID: 11470886}
+  m_Layer: 5
+  m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &197912
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22426184}
+  - 222: {fileID: 22232302}
+  - 114: {fileID: 11448864}
+  - 114: {fileID: 11416724}
+  - 114: {fileID: 11400608}
+  - 114: {fileID: 11484026}
+  m_Layer: 5
+  m_Name: Button (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -917,6 +957,24 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11400608
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1679637790, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreLayout: 0
+  m_MinWidth: -1
+  m_MinHeight: 35
+  m_PreferredWidth: -1
+  m_PreferredHeight: 35
+  m_FlexibleWidth: -1
+  m_FlexibleHeight: -1
 --- !u!114 &11405048
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -967,6 +1025,25 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!114 &11409658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11468268}
+  cost:
+    units: 0
+    quantity: 300000
+  gain:
+    units: 4
+    quantity: 1
 --- !u!114 &11409892
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1125,6 +1202,47 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Library:'
+--- !u!114 &11416724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: .960784316, g: .960784316, b: .960784316, a: 1}
+    m_PressedColor: {r: .784313738, g: .784313738, b: .784313738, a: 1}
+    m_DisabledColor: {r: .784313738, g: .784313738, b: .784313738, a: .501960814}
+    m_ColorMultiplier: 1
+    m_FadeDuration: .100000001
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 11448864}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!114 &11418034
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1152,6 +1270,25 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11418576
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 127814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11467472}
+  cost:
+    units: 4
+    quantity: 1
+  gain:
+    units: 6
+    quantity: 35
 --- !u!114 &11419246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1233,7 +1370,26 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Donate {0} Furnitures
+  m_Text: Donate {0} Furniture
+--- !u!114 &11422698
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 149850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11451984}
+  cost:
+    units: 1
+    quantity: 20
+  gain:
+    units: 6
+    quantity: 50
 --- !u!114 &11422898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1316,6 +1472,25 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11426396
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 137170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11422898}
+  cost:
+    units: 0
+    quantity: 1000
+  gain:
+    units: 2
+    quantity: 1
 --- !u!114 &11426510
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1362,24 +1537,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Latest News:'
---- !u!114 &11426828
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 137592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 11487548}
-  productName: {fileID: 11405048}
-  priceText: {fileID: 11409892}
-  uniqueName: iron
-  victoryPointGained: 0
-  costInCents: 1000
 --- !u!114 &11428256
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1434,24 +1591,6 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
---- !u!114 &11429864
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 185560}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 0}
-  productName: {fileID: 11438932}
-  priceText: {fileID: 11447686}
-  uniqueName: test
-  victoryPointGained: 1
-  costInCents: 1000
 --- !u!114 &11430898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1470,6 +1609,25 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
+--- !u!114 &11432852
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11493558}
+  cost:
+    units: 3
+    quantity: 2
+  gain:
+    units: 6
+    quantity: 10
 --- !u!114 &11433064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1498,7 +1656,7 @@ MonoBehaviour:
   m_MinWidth: -1
   m_MinHeight: 30
   m_PreferredWidth: -1
-  m_PreferredHeight: 50
+  m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
 --- !u!114 &11438932
@@ -1533,24 +1691,6 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: 'Mary Warren Institute:'
---- !u!114 &11443310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 186650}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 11468268}
-  productName: {fileID: 11465592}
-  priceText: {fileID: 11476656}
-  uniqueName: iron
-  victoryPointGained: 0
-  costInCents: 1000
 --- !u!114 &11443686
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1608,7 +1748,7 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 25
+    m_MaxSize: 23
     m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1705,13 +1845,40 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Sewing Machines ({0}):'
+  m_Text: 'Sewing Machine ({0}):'
 --- !u!114 &11448588
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 152906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &11448864
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
@@ -2073,24 +2240,6 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &11466342
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 117140}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 0}
-  productName: {fileID: 11416384}
-  priceText: {fileID: 11486536}
-  uniqueName: test
-  victoryPointGained: 1
-  costInCents: 1000
 --- !u!114 &11467472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2243,42 +2392,38 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
---- !u!114 &11470158
+--- !u!114 &11470886
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 125146}
+  m_GameObject: {fileID: 193474}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 11466340}
-  productName: {fileID: 11448528}
-  priceText: {fileID: 11465708}
-  uniqueName: iron
-  victoryPointGained: 0
-  costInCents: 1000
---- !u!114 &11471220
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 132814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 0}
-  productName: {fileID: 11469214}
-  priceText: {fileID: 11487188}
-  uniqueName: test
-  victoryPointGained: 1
-  costInCents: 1000
+  m_Material: {fileID: 0}
+  m_Color: {r: .196078435, g: .196078435, b: .196078435, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b8a4b4adc9b23a14e82614c7943c6540, type: 3}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 1
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Donate {0} Dresses
 --- !u!114 &11472998
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2299,6 +2444,25 @@ MonoBehaviour:
   m_Spacing: 5
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
+--- !u!114 &11474490
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 161368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11484546}
+  cost:
+    units: 1
+    quantity: 1
+  gain:
+    units: 6
+    quantity: 1
 --- !u!114 &11475274
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2388,13 +2552,32 @@ MonoBehaviour:
     m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 10
-    m_MaxSize: 25
+    m_MaxSize: 23
     m_Alignment: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: This is a test news to make sure clips do appear.  Interesting....
+--- !u!114 &11480248
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 126488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11487548}
+  cost:
+    units: 0
+    quantity: 250
+  gain:
+    units: 1
+    quantity: 1
 --- !u!114 &11481590
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2413,6 +2596,25 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
+--- !u!114 &11482160
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 167234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11400292}
+  cost:
+    units: 0
+    quantity: 1000
+  gain:
+    units: 6
+    quantity: 10
 --- !u!114 &11482270
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2424,6 +2626,25 @@ MonoBehaviour:
   m_Script: {fileID: -146154839, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11484026
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11416724}
+  cost:
+    units: 2
+    quantity: 20
+  gain:
+    units: 6
+    quantity: 75
 --- !u!114 &11484546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2465,6 +2686,25 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11486072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 120288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11466340}
+  cost:
+    units: 0
+    quantity: 20000
+  gain:
+    units: 3
+    quantity: 1
 --- !u!114 &11486508
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2509,7 +2749,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Donate {0} Books
+  m_Text: Donate {0} Book
 --- !u!114 &11487188
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2677,24 +2917,6 @@ MonoBehaviour:
   m_PreferredHeight: 35
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
---- !u!114 &11492080
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 180378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentPanel: {fileID: 11426510}
-  productButton: {fileID: 11422898}
-  productName: {fileID: 11475274}
-  priceText: {fileID: 11421824}
-  uniqueName: iron
-  victoryPointGained: 0
-  costInCents: 1000
 --- !u!114 &11492164
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2768,6 +2990,25 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11495766
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcf4e113a8d8a4469eab29c9ad89d30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentPanel: {fileID: 11426510}
+  powerUpButton: {fileID: 11424814}
+  cost:
+    units: 4
+    quantity: 5
+  gain:
+    units: 6
+    quantity: 130
 --- !u!114 &11496244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2853,7 +3094,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Donate ${0}
+  m_Text: Donate {0}
 --- !u!114 &11498478
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2885,7 +3126,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Donate {0} Dresses
+  m_Text: Donate {0} Furnitures
 --- !u!222 &22207160
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -2952,6 +3193,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 116644}
+--- !u!222 &22232302
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
 --- !u!222 &22235576
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -3012,6 +3259,12 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 145686}
+--- !u!222 &22269864
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193474}
 --- !u!222 &22273352
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -3111,8 +3364,8 @@ RectTransform:
   - {fileID: 22484610}
   - {fileID: 22433574}
   - {fileID: 22447976}
-  - {fileID: 22457560}
   - {fileID: 22447800}
+  - {fileID: 22457560}
   - {fileID: 22430258}
   m_Father: {fileID: 22476136}
   m_RootOrder: 0
@@ -3239,7 +3492,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22485822}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: .899999976}
+  m_AnchorMin: {x: 0, y: .925000012}
   m_AnchorMax: {x: .25, y: 1}
   m_AnchoredPosition: {x: 1.52587891e-05, y: -7.62939453e-06}
   m_SizeDelta: {x: -3.05175781e-05, y: -1.52587891e-05}
@@ -3308,7 +3561,7 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22459366}
   m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: .899999976}
+  m_AnchorMin: {x: 0, y: .925000012}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -3329,6 +3582,24 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22426184
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 197912}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22495290}
+  m_Father: {fileID: 22455418}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22429824
 RectTransform:
@@ -3448,10 +3719,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 22485822}
   m_RootOrder: 1
-  m_AnchorMin: {x: .25, y: .899999976}
+  m_AnchorMin: {x: .25, y: .925000012}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5, y: -2.38418579e-05}
-  m_SizeDelta: {x: -10, y: -1.52587891e-05}
+  m_AnchoredPosition: {x: 5, y: -1.57356262e-05}
+  m_SizeDelta: {x: -10, y: -3.14712524e-05}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22447800
 RectTransform:
@@ -3466,7 +3737,7 @@ RectTransform:
   - {fileID: 22409546}
   - {fileID: 22496856}
   m_Father: {fileID: 22400242}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3503,7 +3774,7 @@ RectTransform:
   m_Children:
   - {fileID: 22431380}
   m_Father: {fileID: 22455418}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3521,7 +3792,7 @@ RectTransform:
   m_Children:
   - {fileID: 22473682}
   m_Father: {fileID: 22455418}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3537,9 +3808,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 22451700}
-  - {fileID: 22453228}
   - {fileID: 22464946}
+  - {fileID: 22451700}
+  - {fileID: 22426184}
+  - {fileID: 22453228}
   m_Father: {fileID: 22430258}
   m_RootOrder: 1
   m_AnchorMin: {x: .5, y: 1}
@@ -3596,7 +3868,7 @@ RectTransform:
   - {fileID: 22439262}
   - {fileID: 22466714}
   m_Father: {fileID: 22400242}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3701,7 +3973,7 @@ RectTransform:
   m_Children:
   - {fileID: 22488418}
   m_Father: {fileID: 22455418}
-  m_RootOrder: 2
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -3758,7 +4030,7 @@ RectTransform:
   m_Father: {fileID: 22459366}
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: .899999976}
+  m_AnchorMax: {x: 1, y: .925000012}
   m_AnchoredPosition: {x: -7.82012939e-05, y: 0}
   m_SizeDelta: {x: 0, y: -40}
   m_Pivot: {x: .5, y: .5}
@@ -3828,9 +4100,9 @@ RectTransform:
   m_Father: {fileID: 22485822}
   m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: .649999976, y: .899999976}
-  m_AnchoredPosition: {x: -10, y: -10}
-  m_SizeDelta: {x: -20, y: -20}
+  m_AnchorMax: {x: .649999976, y: .925000012}
+  m_AnchoredPosition: {x: -10, y: 0}
+  m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22476294
 RectTransform:
@@ -3989,6 +4261,23 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22456816}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -10, y: -10}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22495290
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193474}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22426184}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
