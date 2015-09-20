@@ -38,6 +38,8 @@ public class GamePanel : MonoBehaviour
     GameObject victorySet;
     [SerializeField]
     DialogPanel dialogPanel;
+    [SerializeField]
+    EventQueue eventQueue;
 
     // Important stuff
     int currencyCents = 0;
@@ -195,6 +197,14 @@ public class GamePanel : MonoBehaviour
             return dialogPanel;
         }
     }
+
+    public EventQueue Queue
+    {
+        get
+        {
+            return eventQueue;
+        }
+    }
     #endregion
 
     public void Pause()
@@ -248,6 +258,9 @@ public class GamePanel : MonoBehaviour
         books = PlayerPrefs.GetInt(BooksKey, 0);
         sewingMachines = PlayerPrefs.GetInt(SewingMachineKey, 0);
         furnitures = PlayerPrefs.GetInt(FurnituresKey, 0);
+
+        // Setup queue
+        Queue.Setup(this, dialogPanel);
     }
 
     void Start()
@@ -263,7 +276,7 @@ public class GamePanel : MonoBehaviour
     void Update ()
     {
         // Check if the second passed
-	    if((lastStarted > 0) && ((Time.time - lastStarted) > 1f))
+        if ((lastStarted > 0) && ((Time.time - lastStarted) > 1f))
         {
             // Increment currency
             CurrentCurrencyCents += CurrentVictoryPoints + husbandsIncome;
@@ -274,6 +287,9 @@ public class GamePanel : MonoBehaviour
             // Reset time
             lastStarted = Time.time;
         }
+
+        // Update event queue
+        Queue.OnUpdate();
     }
     #endregion
 

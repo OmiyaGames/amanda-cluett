@@ -2920,6 +2920,8 @@ MonoBehaviour:
   victoryLabel: {fileID: 11492164}
   victorySet: {fileID: 186238}
   dialogPanel: {fileID: 0}
+  eventQueue:
+    gapBetweenEventsSeconds: 5
 --- !u!114 &11426736
 MonoBehaviour:
   m_ObjectHideFlags: 1

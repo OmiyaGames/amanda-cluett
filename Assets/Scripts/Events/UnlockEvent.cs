@@ -39,6 +39,14 @@ public class UnlockEvent : MonoBehaviour
         }
     }
 
+    public bool ContainsConversation
+    {
+        get
+        {
+            return (conversation != null);
+        }
+    }
+
     public string PlayerPrefsKey
     {
         get
@@ -48,6 +56,30 @@ public class UnlockEvent : MonoBehaviour
                 savedKey = "Event." + storedKey;
             }
             return savedKey;
+        }
+    }
+
+    public void UnlockEverything(EventQueue queue)
+    {
+        if (isUnlocked == false)
+        {
+            // Mark as unlocked
+            isUnlocked = true;
+            PlayerPrefs.SetInt(PlayerPrefsKey, 1);
+
+            // Disassociate with all events
+            OnDestroy();
+
+            // Check to see if there's a conversation to unlock first
+            if (ContainsConversation == true)
+            {
+                queue.Dialog.ShowDialog(conversation, AfterConversation);
+            }
+            else
+            {
+                // Just unlock the group
+                AfterConversation(null);
+            }
         }
     }
 
@@ -64,10 +96,12 @@ public class UnlockEvent : MonoBehaviour
         isUnlocked = (PlayerPrefs.GetInt(PlayerPrefsKey, 0) != 0);
         if(isUnlocked == true)
         {
-            UnlockEverything(true);
+            // Unlock any groups or news associated with this event
+            UnlockGroupAndNews();
         }
         else
         {
+            // Bind to events in the game panel
             unitsChanged = new System.Action<GamePanel>(CheckIfUnlocked);
             parentPanel.OnCurrencyChanged += unitsChanged;
             parentPanel.OnSupplyChanged += unitsChanged;
@@ -101,43 +135,28 @@ public class UnlockEvent : MonoBehaviour
         if(allConditionsPassed == true)
         {
             // If so, unlock everything!
-            UnlockEverything(false);
+            parentPanel.Queue.AddEvent(this);
         }
     }
 
-    void UnlockEverything(bool onStart)
-    {
-        if((isUnlocked == false) || (onStart == true))
-        {
-            // Mark as unlocked
-            isUnlocked = true;
-            PlayerPrefs.SetInt(PlayerPrefsKey, 1);
-
-            // Disassociate with all events
-            OnDestroy();
-
-            // Check to see if there's a conversation to unlock first
-            if ((onStart == false) && (conversation != null))
-            {
-                parentPanel.Dialog.ShowDialog(conversation, UnlockGroup);
-            }
-            else
-            {
-                // Just unlock the group
-                UnlockGroup(null);
-            }
-        }
-    }
-
-    void UnlockGroup(DialogPanel panel)
+    void UnlockGroupAndNews()
     {
         // Unlock the group
-        if(group != null)
+        if (group != null)
         {
             group.Unlock(parentPanel);
         }
 
-        if(changeHusbandIncome == true)
+        // FIXME: consider unlocking news here
+    }
+
+    void AfterConversation(DialogPanel panel)
+    {
+        // Unlock the group
+        UnlockGroupAndNews();
+
+        // Unlock other things
+        if (changeHusbandIncome == true)
         {
             parentPanel.HusbandsIncome = husbandIncomeCents;
         }
@@ -145,7 +164,5 @@ public class UnlockEvent : MonoBehaviour
         {
             parentPanel.CurrentCurrencyCents += increaseCents;
         }
-
-        // FIXME: consider unlocking news here
     }
 }
