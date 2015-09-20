@@ -1072,7 +1072,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11468268}
   cost:
     units: 0
-    quantity: 300000
+    quantity: 55000
   gain:
     units: 4
     quantity: 1
@@ -1429,7 +1429,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11451984}
   cost:
     units: 1
-    quantity: 20
+    quantity: 50
   gain:
     units: 6
     quantity: 50
@@ -1566,7 +1566,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11422898}
   cost:
     units: 0
-    quantity: 1000
+    quantity: 1500
   gain:
     units: 2
     quantity: 1
@@ -2753,7 +2753,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11487548}
   cost:
     units: 0
-    quantity: 250
+    quantity: 375
   gain:
     units: 1
     quantity: 1
@@ -2790,7 +2790,7 @@ MonoBehaviour:
   powerUpButton: {fileID: 11400292}
   cost:
     units: 0
-    quantity: 1000
+    quantity: 10000
   gain:
     units: 6
     quantity: 10
@@ -2820,10 +2820,10 @@ MonoBehaviour:
   powerUpButton: {fileID: 11416724}
   cost:
     units: 2
-    quantity: 20
+    quantity: 15
   gain:
     units: 6
-    quantity: 75
+    quantity: 50
 --- !u!114 &11484546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3234,7 +3234,7 @@ MonoBehaviour:
     quantity: 5
   gain:
     units: 6
-    quantity: 130
+    quantity: 125
 --- !u!114 &11496244
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3821,7 +3821,7 @@ RectTransform:
   m_Children:
   - {fileID: 22495290}
   m_Father: {fileID: 22455418}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4000,7 +4000,7 @@ RectTransform:
   m_Children:
   - {fileID: 22431380}
   m_Father: {fileID: 22455418}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -4035,8 +4035,8 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 22464946}
-  - {fileID: 22451700}
   - {fileID: 22426184}
+  - {fileID: 22451700}
   - {fileID: 22453228}
   m_Father: {fileID: 22430258}
   m_RootOrder: 1
