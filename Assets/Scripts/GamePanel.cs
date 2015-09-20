@@ -36,6 +36,8 @@ public class GamePanel : MonoBehaviour
     [Header("Other")]
     [SerializeField]
     GameObject victorySet;
+    [SerializeField]
+    DialogPanel dialogPanel;
 
     // Important stuff
     int currencyCents = 0;
@@ -183,6 +185,14 @@ public class GamePanel : MonoBehaviour
                     OnSupplyChanged(this);
                 }
             }
+        }
+    }
+
+    public DialogPanel Dialog
+    {
+        get
+        {
+            return dialogPanel;
         }
     }
     #endregion
