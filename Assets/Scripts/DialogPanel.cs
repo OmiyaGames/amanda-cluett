@@ -28,6 +28,8 @@ public class DialogPanel : MonoBehaviour
     Text presentText;
     [SerializeField]
     Text nextText;
+    [SerializeField]
+    GamePanel game;
 
     [Header("Animation Fields")]
     [SerializeField]
@@ -89,10 +91,14 @@ public class DialogPanel : MonoBehaviour
         }
 
         // Check if this is the first time loading the game
-        if(true)//(Singleton.Get<GameSettings>().Status == GameSettings.AppStatus.FirstTimeOpened)
+        if(Singleton.Get<GameSettings>().Status == GameSettings.AppStatus.FirstTimeOpened)
         {
-            // FIXME: add an Action to jump-start the game
-            ShowDialog(initialDialogs);
+            // Start the initial dialog
+            ShowDialog(initialDialogs, game.Resume);
+        }
+        else
+        {
+            game.Resume(this);
         }
     }
 

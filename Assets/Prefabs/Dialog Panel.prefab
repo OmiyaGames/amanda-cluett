@@ -98,7 +98,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &144226
 GameObject:
   m_ObjectHideFlags: 0
@@ -132,7 +132,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &151688
 GameObject:
   m_ObjectHideFlags: 1
@@ -259,6 +259,7 @@ MonoBehaviour:
   animator: {fileID: 9505102}
   presentText: {fileID: 11424016}
   nextText: {fileID: 11447818}
+  game: {fileID: 0}
   visibleBoolField: visible
   nextTrigger: next
   visibleStateName: Dialog Visible Still
