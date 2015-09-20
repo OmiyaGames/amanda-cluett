@@ -1,19 +1,36 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
 public class SupplyCondition : IEventCondition
 {
+    [Tooltip("This list is an OR-condition")]
     [SerializeField]
-    GamePanel.Units units;
-    [SerializeField]
-    int quantity;
+    GamePowerUp.Change[] supplyCheck;
 
-    int currentQuantity;
+    int currentQuantity = -1, index = 0;
 
     public override bool Passed(UnlockEvent unlockEvent, GamePanel panel)
     {
+        // Check if any event is not unlocked
+        bool returnFlag = false;
+        for (index = 0; index < supplyCheck.Length; ++index)
+        {
+            if (CheckSupply(supplyCheck[index], panel) == true)
+            {
+                returnFlag = true;
+                break;
+            }
+        }
+
+        // Return whether all events are unlocked
+        return returnFlag;
+    }
+
+    bool CheckSupply(GamePowerUp.Change change, GamePanel panel)
+    {
         // Grab the quantity in question (based on units)
         currentQuantity = -1;
-        switch(units)
+        switch (change.units)
         {
             case GamePanel.Units.Cents:
                 currentQuantity = panel.CurrentCurrencyCents;
@@ -39,6 +56,6 @@ public class SupplyCondition : IEventCondition
         }
 
         // Return whether it's greater or now
-        return (currentQuantity >= quantity);
+        return (currentQuantity >= change.quantity);
     }
 }

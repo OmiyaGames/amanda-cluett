@@ -2,6 +2,7 @@
 
 public class PreviousEventUnlockedCondition : IEventCondition
 {
+    [Tooltip("This list is an OR-condition")]
     [SerializeField]
     UnlockEvent[] allPreviousEvents;
 
@@ -10,12 +11,12 @@ public class PreviousEventUnlockedCondition : IEventCondition
     public override bool Passed(UnlockEvent unlockEvent, GamePanel panel)
     {
         // Check if any event is not unlocked
-        bool returnFlag = true;
+        bool returnFlag = false;
         for(index = 0; index < allPreviousEvents.Length; ++index)
         {
-            if(allPreviousEvents[index].IsUnlocked == false)
+            if(allPreviousEvents[index].IsUnlocked == true)
             {
-                returnFlag = false;
+                returnFlag = true;
                 break;
             }
         }

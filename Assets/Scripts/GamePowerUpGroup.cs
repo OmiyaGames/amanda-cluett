@@ -16,6 +16,12 @@ public class GamePowerUpGroup : MonoBehaviour
     System.Action<GamePanel> unitsChanged = null;
     int currentQuantity = -1;
 
+    public void Unlock(GamePanel panel)
+    {
+        gameObject.SetActive(true);
+        OnUnitsChange(panel);
+    }
+
     // Use this for initialization
     void Awake()
     {

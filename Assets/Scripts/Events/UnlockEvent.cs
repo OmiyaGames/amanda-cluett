@@ -126,7 +126,7 @@ public class UnlockEvent : MonoBehaviour
         // Unlock the group
         if(group != null)
         {
-            group.gameObject.SetActive(true);
+            group.Unlock(parentPanel);
         }
 
         // FIXME: consider unlocking news here
