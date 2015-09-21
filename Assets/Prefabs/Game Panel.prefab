@@ -500,6 +500,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &118336
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22466780}
+  - 114: {fileID: 11481964}
+  m_Layer: 5
+  m_Name: Initial Entries 04
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &118774
 GameObject:
   m_ObjectHideFlags: 0
@@ -913,6 +929,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
+--- !u!1 &133456
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22468810}
+  - 114: {fileID: 11436982}
+  m_Layer: 5
+  m_Name: Initial Entries 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &134298
 GameObject:
   m_ObjectHideFlags: 1
@@ -1226,6 +1258,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &144960
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22451198}
+  - 114: {fileID: 11499570}
+  m_Layer: 5
+  m_Name: Initial Entries 03
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &145392
 GameObject:
   m_ObjectHideFlags: 1
@@ -1482,6 +1530,7 @@ GameObject:
   - 224: {fileID: 22467344}
   - 114: {fileID: 11482270}
   - 95: {fileID: 9574082}
+  - 114: {fileID: 11446764}
   m_Layer: 5
   m_Name: News Mask
   m_TagString: Untagged
@@ -2427,6 +2476,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &179550
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22446540}
+  - 114: {fileID: 11430068}
+  m_Layer: 5
+  m_Name: Initial Entries 02
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &179778
 GameObject:
   m_ObjectHideFlags: 1
@@ -2569,6 +2634,21 @@ GameObject:
   - 114: {fileID: 11421824}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &183914
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22429828}
+  m_Layer: 5
+  m_Name: News Entries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2784,6 +2864,22 @@ GameObject:
   - 114: {fileID: 11465708}
   m_Layer: 5
   m_Name: Price Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &188898
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22439760}
+  - 114: {fileID: 11437926}
+  m_Layer: 5
+  m_Name: Initial Entries 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4155,8 +4251,10 @@ MonoBehaviour:
   victoryLabel: {fileID: 11492164}
   victorySet: {fileID: 186238}
   dialogPanel: {fileID: 0}
+  newsPanel: {fileID: 11446764}
   eventQueue:
     gapBetweenEventsSeconds: 5
+  updateCurrencyEvery: 1
 --- !u!114 &11426736
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4290,6 +4388,20 @@ MonoBehaviour:
   character: 3
   text: Your husband, George Cruett, has recently been in an accident, and passed
     away.
+--- !u!114 &11430068
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Local Troy Library opens.
+
+    "We plan to educate you all!"'
 --- !u!114 &11430898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4488,6 +4600,36 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
+--- !u!114 &11436982
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Card game "Five Nights at Freddie Fryhoper''s" is all the rage!
+
+    What does this successful horror game say about our current childen?'
+--- !u!114 &11437926
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Is your stoves too cold to cook?
+
+    Try these super-hot gas stoves by Fuller & Warren Stove Manufacturers!
+
+    They''ll keep you and your food warm!'
 --- !u!114 &11438198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4730,6 +4872,29 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11446764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 151930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba356001898b545e2ad7d27d897c910f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateNewsEvery: 7.5
+  parentPanel: {fileID: 11426510}
+  currentText: {fileID: 11479224}
+  newText: {fileID: 11446338}
+  animator: {fileID: 9574082}
+  nextEntryTrigger: next
+  startingEntries:
+  - {fileID: 11436982}
+  - {fileID: 11430068}
+  - {fileID: 11499570}
+  - {fileID: 11481964}
+  - {fileID: 11437926}
 --- !u!114 &11447448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6372,6 +6537,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: Yes, please.
+--- !u!114 &11481964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Millionaire George Cruett describes how Cluett, Peabody & Co. Inc. became
+    so successful:
+
+    "It''s all thanks to my hard-working employees."'
 --- !u!114 &11482160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7249,6 +7429,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: Oh, you know. Buying some books I find interesting.
+--- !u!114 &11499570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Buy shirts, dresses, collars and sleeves by Cluett, Peabody & Co. Inc.
+
+    They''re super-fancy!'
 --- !u!222 &22207160
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -8429,6 +8623,28 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 2, y: -40}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22429828
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 183914}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22468810}
+  - {fileID: 22446540}
+  - {fileID: 22451198}
+  - {fileID: 22466780}
+  - {fileID: 22439760}
+  m_Father: {fileID: 22485822}
+  m_RootOrder: 7
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22429986
 RectTransform:
   m_ObjectHideFlags: 1
@@ -8834,6 +9050,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -1.07288361e-06}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22439760
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 188898}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 4
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22439872
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9038,6 +9271,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22446540
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 179550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22447800
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9149,6 +9399,23 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22451198
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144960}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22451700
@@ -9437,7 +9704,7 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: .5, y: 1}
+  m_Pivot: {x: .5, y: 0}
 --- !u!224 &22459366
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9641,9 +9908,9 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 1.5, y: 0}
   m_AnchorMax: {x: 2.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -203.850037, y: 54.6214905}
   m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 1}
+  m_Pivot: {x: 0, y: 0}
 --- !u!224 &22463898
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9732,6 +9999,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 85}
   m_Pivot: {x: .5, y: 1}
+--- !u!224 &22466780
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 118336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22467344
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9829,6 +10113,23 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22468810
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 133456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22468932
@@ -10408,6 +10709,7 @@ RectTransform:
   - {fileID: 22459366}
   - {fileID: 22475602}
   - {fileID: 22448922}
+  - {fileID: 22429828}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
