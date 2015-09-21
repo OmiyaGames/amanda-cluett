@@ -27,8 +27,11 @@ public class NewsPanel : MonoBehaviour
 	[Header("News")]
 	[SerializeField]
 	List<NewsEntry> startingEntries;
+	[SerializeField]
+	int numberOfEntriesToCache = 3;
 
 	RandomList<NewsEntry> randomEntries = null;
+	readonly Stack<NewsEntry> cacheEntries = new Stack<NewsEntry>();
 	float lastStarted = -1f;
 
 	public List<NewsEntry> AllEntries
@@ -60,6 +63,13 @@ public class NewsPanel : MonoBehaviour
 		{
 			// If not, choose a random element
 			entry = randomEntries.RandomElement;
+
+			// Get an entry that isn't in the cache list
+			while(cacheEntries.Contains(entry) == true)
+			{
+				// Keep grabbing a random element
+				entry = randomEntries.RandomElement;
+			}
 		}
 
 		// Display this news
@@ -71,6 +81,19 @@ public class NewsPanel : MonoBehaviour
 		{
 			Resume();
 		}
+
+		// Check if this is a new entry
+		if(cacheEntries.Contains(entry) == false)
+		{
+			// Add entry to the list
+			cacheEntries.Push(entry);
+
+			// If this exceeds the size, start removing entries
+			while(cacheEntries.Count > numberOfEntriesToCache)
+			{
+				cacheEntries.Pop();
+			}
+		}
 	}
 
 	public void SwapLabels()
@@ -81,8 +104,16 @@ public class NewsPanel : MonoBehaviour
 	// Use this for initialization
 	void Start ()
 	{
+		// Setup random list
 		randomEntries = new RandomList<NewsEntry>(startingEntries);
-		currentText.text = randomEntries.RandomElement.News;
+
+		// Setup current text
+		NewsEntry tempEntry = randomEntries.RandomElement;
+		currentText.text = tempEntry.News;
+
+		// Cache news
+		cacheEntries.Clear();
+		cacheEntries.Push(tempEntry);
 	}
 
 	void Update()

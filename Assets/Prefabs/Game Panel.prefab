@@ -1064,7 +1064,7 @@ GameObject:
   m_Component:
   - 224: {fileID: 22476094}
   m_Layer: 5
-  m_Name: George's Death Entries (1)
+  m_Name: George's Death Entries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8231,7 +8231,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  news: Cluett, Peabody & Co. Inc. mostly employees single Irish women, sources claim.
+  news: Cluett, Peabody & Co. Inc. mostly employs single Irish women, sources claim.
 --- !u!114 &11495766
 MonoBehaviour:
   m_ObjectHideFlags: 1
