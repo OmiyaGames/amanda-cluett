@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using OmiyaGames;
 
 public class UnlockEvent : MonoBehaviour
 {
@@ -15,6 +16,8 @@ public class UnlockEvent : MonoBehaviour
     [SerializeField]
     DialogCollection conversation;
     // FIXME: consider unlocking news
+
+    [Header("Change numbers")]
     [SerializeField]
     bool changeHusbandIncome = false;
     [SerializeField]
@@ -23,6 +26,10 @@ public class UnlockEvent : MonoBehaviour
     bool increaseAccount = false;
     [SerializeField]
     int increaseCents = 3500000;
+
+    [Header("Reset everything")]
+    [SerializeField]
+    bool resetData = false;
 
     IEventCondition[] allConditionsToMeet = null;
     bool isUnlocked = false, allConditionsPassed = false;
@@ -79,6 +86,11 @@ public class UnlockEvent : MonoBehaviour
 
             // Disassociate with all events
             OnDestroy();
+
+            if(resetData == true)
+            {
+                Singleton.Get<GameSettings>().ClearSettings();
+            }
 
             // Check to see if there's a conversation to unlock first
             if (ContainsConversation == true)
@@ -173,6 +185,12 @@ public class UnlockEvent : MonoBehaviour
         if (increaseAccount == true)
         {
             parentPanel.CurrentCurrencyCents += increaseCents;
+        }
+
+        if(resetData == true)
+        {
+            // Reload this scene
+            Singleton.Get<SceneManager>().ReloadCurrentScene();
         }
     }
 }

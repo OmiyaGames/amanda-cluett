@@ -231,6 +231,11 @@ namespace OmiyaGames
                 {
                     levelSelect.SetButtonsEnabled(true);
                 }
+                else
+                {
+                    // Reload level
+                    Singleton.Get<SceneManager>().ReloadCurrentScene();
+                }
             }
         }
     }
