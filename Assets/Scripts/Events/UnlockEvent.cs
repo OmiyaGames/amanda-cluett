@@ -15,7 +15,8 @@ public class UnlockEvent : MonoBehaviour
     GamePowerUpGroup group;
     [SerializeField]
     DialogCollection conversation;
-    // FIXME: consider unlocking news
+	[SerializeField]
+	NewsEntry[] newsEntries;
 
     [Header("Change numbers")]
     [SerializeField]
@@ -119,7 +120,7 @@ public class UnlockEvent : MonoBehaviour
         if(isUnlocked == true)
         {
             // Unlock any groups or news associated with this event
-            UnlockGroupAndNews();
+            UnlockGroupAndNews(true);
         }
         else
         {
@@ -153,7 +154,6 @@ public class UnlockEvent : MonoBehaviour
             }
         }
 
-        //Debug.Log("Unlock: " + gameObject.name + " is " + allConditionsPassed);
         if(allConditionsPassed == true)
         {
             // If so, unlock everything!
@@ -161,7 +161,7 @@ public class UnlockEvent : MonoBehaviour
         }
     }
 
-    void UnlockGroupAndNews()
+    void UnlockGroupAndNews(bool isStart)
     {
         // Unlock the group
         if (group != null)
@@ -169,13 +169,25 @@ public class UnlockEvent : MonoBehaviour
             group.Unlock(parentPanel);
         }
 
-        // FIXME: consider unlocking news here
+        // Consider unlocking news here
+		if(newsEntries.Length > 0)
+		{
+			for(index = 0; index < newsEntries.Length; ++index)
+			{
+				parentPanel.News.AllEntries.Add(newsEntries[index]);
+			}
+
+			if(isStart == true)
+			{
+				parentPanel.News.NextNewsEntry(newsEntries[0]);
+			}
+		}
     }
 
     void AfterConversation(DialogPanel panel)
     {
         // Unlock the group
-        UnlockGroupAndNews();
+        UnlockGroupAndNews(false);
 
         // Unlock other things
         if (changeHusbandIncome == true)

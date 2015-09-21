@@ -53,9 +53,17 @@ public class NewsPanel : MonoBehaviour
 		}
 	}
 
-	public void NextNewsEntry()
+	public void NextNewsEntry(NewsEntry entry = null)
 	{
-		newText.text = randomEntries.RandomElement.News;
+		// Check if any entry is provided
+		if(entry == null)
+		{
+			// If not, choose a random element
+			entry = randomEntries.RandomElement;
+		}
+
+		// Display this news
+		newText.text = entry.News;
 		animator.SetTrigger(nextEntryTrigger);
 	}
 

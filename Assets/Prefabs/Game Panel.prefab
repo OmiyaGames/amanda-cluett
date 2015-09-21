@@ -48,6 +48,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &101544
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22442650}
+  - 114: {fileID: 11477030}
+  m_Layer: 5
+  m_Name: Library Entry (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &101952
 GameObject:
   m_ObjectHideFlags: 1
@@ -178,6 +194,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &105148
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22414640}
+  - 114: {fileID: 11469040}
+  m_Layer: 5
+  m_Name: Library Entry (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &105330
 GameObject:
   m_ObjectHideFlags: 1
@@ -257,6 +289,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &108090
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22468630}
+  m_Layer: 5
+  m_Name: Sewing Machine Entries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &108194
 GameObject:
   m_ObjectHideFlags: 1
@@ -268,6 +315,22 @@ GameObject:
   - 114: {fileID: 11423058}
   m_Layer: 5
   m_Name: Dialog (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &110106
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22425776}
+  - 114: {fileID: 11485422}
+  m_Layer: 5
+  m_Name: Sewing Machine Entry (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -516,22 +579,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &118336
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22466780}
-  - 114: {fileID: 11481964}
-  m_Layer: 5
-  m_Name: Initial Entries 04
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &118774
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,6 +738,22 @@ GameObject:
   - 114: {fileID: 11464106}
   m_Layer: 5
   m_Name: Dialog (15)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &124490
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22467178}
+  - 114: {fileID: 11467764}
+  m_Layer: 5
+  m_Name: Initial Entries 05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -945,22 +1008,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!1 &133456
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22468810}
-  - 114: {fileID: 11436982}
-  m_Layer: 5
-  m_Name: Initial Entries 01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &134298
 GameObject:
   m_ObjectHideFlags: 1
@@ -1161,6 +1208,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &139062
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22444420}
+  m_Layer: 5
+  m_Name: Furniture Entries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &139396
 GameObject:
   m_ObjectHideFlags: 1
@@ -1204,6 +1266,21 @@ GameObject:
   - 114: {fileID: 11473838}
   m_Layer: 5
   m_Name: Dialog (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &141180
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22464170}
+  m_Layer: 5
+  m_Name: Initial Entries
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1285,22 +1362,6 @@ GameObject:
   - 114: {fileID: 11415658}
   m_Layer: 5
   m_Name: Event Unlocked Condition
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &144960
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22451198}
-  - 114: {fileID: 11499570}
-  m_Layer: 5
-  m_Name: Initial Entries 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1723,6 +1784,21 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1 &154686
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22438024}
+  m_Layer: 5
+  m_Name: Library Entries
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &155206
 GameObject:
   m_ObjectHideFlags: 1
@@ -1766,6 +1842,22 @@ GameObject:
   - 114: {fileID: 11459236}
   m_Layer: 5
   m_Name: Dialog (5)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157852
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22402628}
+  - 114: {fileID: 11440786}
+  m_Layer: 5
+  m_Name: Initial Entries 01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2518,7 +2610,7 @@ GameObject:
   - 224: {fileID: 22446540}
   - 114: {fileID: 11430068}
   m_Layer: 5
-  m_Name: Initial Entries 02
+  m_Name: Furniture Entry (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2617,6 +2709,22 @@ GameObject:
   - 114: {fileID: 11486756}
   m_Layer: 5
   m_Name: Event Unlocked Condition (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &181618
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 224: {fileID: 22454038}
+  - 114: {fileID: 11420558}
+  m_Layer: 5
+  m_Name: Initial Entries 03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2901,17 +3009,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &188898
+--- !u!1 &189758
 GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 224: {fileID: 22439760}
-  - 114: {fileID: 11437926}
+  - 224: {fileID: 22419328}
+  - 114: {fileID: 11461568}
   m_Layer: 5
-  m_Name: Initial Entries 05
+  m_Name: Initial Entries 04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3389,6 +3497,7 @@ MonoBehaviour:
   storedKey: george foreshadowing
   group: {fileID: 0}
   conversation: {fileID: 11404346}
+  newsEntries: []
   changeHusbandIncome: 0
   husbandIncomeCents: 1000
   increaseAccount: 0
@@ -3932,6 +4041,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 4
   text: Wait, hold on. Can you start back from the top?
+--- !u!114 &11420558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Buy shirts, dresses, collars and sleeves by Cluett, Peabody & Co. Inc.
+
+    They''re super-fancy!'
 --- !u!114 &11420772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3961,6 +4084,8 @@ MonoBehaviour:
   storedKey: unlock sewing machine
   group: {fileID: 11424472}
   conversation: {fileID: 0}
+  newsEntries:
+  - {fileID: 11485422}
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
   increaseAccount: 0
@@ -4397,6 +4522,7 @@ MonoBehaviour:
   storedKey: unlock mwfi
   group: {fileID: 11452448}
   conversation: {fileID: 11465120}
+  newsEntries: []
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
   increaseAccount: 0
@@ -4445,9 +4571,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  news: 'Local Troy Library opens.
-
-    "We plan to educate you all!"'
+  news: 'Buck Flinn''s Warehouse: has every furniture you''ll ever need!'
 --- !u!114 &11430898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4505,6 +4629,7 @@ MonoBehaviour:
   storedKey: georges death
   group: {fileID: 0}
   conversation: {fileID: 11477904}
+  newsEntries: []
   changeHusbandIncome: 1
   husbandIncomeCents: 0
   increaseAccount: 1
@@ -4646,36 +4771,6 @@ MonoBehaviour:
   m_PreferredHeight: 45
   m_FlexibleWidth: -1
   m_FlexibleHeight: 1
---- !u!114 &11436982
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 133456}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  news: 'Card game "Five Nights at Freddie Fryhoper''s" is all the rage!
-
-    What does this successful horror game say about our current childen?'
---- !u!114 &11437926
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  news: 'Is your stoves too cold to cook?
-
-    Try these super-hot gas stoves by Fuller & Warren Stove Manufacturers!
-
-    They''ll keep you and your food warm!'
 --- !u!114 &11438198
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4734,6 +4829,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: It made me feel like a big traitor.
+--- !u!114 &11440786
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Card game "Five Nights at Freddie Fryhoper''s" is all the rage!
+
+    What does this successful horror game say about our current childen?'
 --- !u!114 &11441728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4949,11 +5058,11 @@ MonoBehaviour:
   animator: {fileID: 9574082}
   nextEntryTrigger: next
   startingEntries:
-  - {fileID: 11436982}
-  - {fileID: 11430068}
-  - {fileID: 11499570}
-  - {fileID: 11481964}
-  - {fileID: 11437926}
+  - {fileID: 11440786}
+  - {fileID: 0}
+  - {fileID: 11420558}
+  - {fileID: 11461568}
+  - {fileID: 11467764}
 --- !u!114 &11447448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4969,6 +5078,7 @@ MonoBehaviour:
   storedKey: unlock ywca
   group: {fileID: 11433146}
   conversation: {fileID: 11414876}
+  newsEntries: []
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
   increaseAccount: 0
@@ -5034,6 +5144,7 @@ MonoBehaviour:
   storedKey: anti-suffrage
   group: {fileID: 0}
   conversation: {fileID: 11431402}
+  newsEntries: []
   changeHusbandIncome: 1
   husbandIncomeCents: 2000
   increaseAccount: 0
@@ -5582,6 +5693,21 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: $10,000,000,000.00
+--- !u!114 &11461568
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Millionaire George Cruett describes how Cluett, Peabody & Co. Inc. became
+    so successful:
+
+    "It''s all thanks to my hard-working employees."'
 --- !u!114 &11462380
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5955,6 +6081,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: '...'
+--- !u!114 &11467764
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Is your stoves too cold to cook?
+
+    Try these super-hot gas stoves by Fuller & Warren Stove Manufacturers!
+
+    They''ll keep you and your food warm!'
 --- !u!114 &11468218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6043,6 +6185,20 @@ MonoBehaviour:
   m_Spacing: 5
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
+--- !u!114 &11469040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Local Troy Library opens.
+
+    "We plan to educate you all!"'
 --- !u!114 &11469214
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6090,6 +6246,7 @@ MonoBehaviour:
   storedKey: ending
   group: {fileID: 0}
   conversation: {fileID: 11478240}
+  newsEntries: []
   changeHusbandIncome: 0
   husbandIncomeCents: 0
   increaseAccount: 0
@@ -6376,6 +6533,8 @@ MonoBehaviour:
   storedKey: unlock furniture
   group: {fileID: 11458478}
   conversation: {fileID: 0}
+  newsEntries:
+  - {fileID: 11430068}
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
   increaseAccount: 0
@@ -6439,6 +6598,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   allPreviousEvents:
   - {fileID: 11448482}
+--- !u!114 &11477030
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101544}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: Numbers of Irish immigrants are increasing rapidly.
 --- !u!114 &11477904
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6595,21 +6766,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 0
   text: Yes, please.
---- !u!114 &11481964
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118336}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  news: 'Millionaire George Cruett describes how Cluett, Peabody & Co. Inc. became
-    so successful:
-
-    "It''s all thanks to my hard-working employees."'
 --- !u!114 &11482160
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6738,6 +6894,20 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &11485422
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  news: 'Can''t find that dress you want?
+
+    Make your own! Buy a sewing machine today!'
 --- !u!114 &11486072
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7469,6 +7639,9 @@ MonoBehaviour:
   storedKey: unlock library
   group: {fileID: 11494938}
   conversation: {fileID: 11455610}
+  newsEntries:
+  - {fileID: 11469040}
+  - {fileID: 11477030}
   changeHusbandIncome: 0
   husbandIncomeCents: 10000
   increaseAccount: 0
@@ -7487,20 +7660,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: Oh, you know. Buying some books I find interesting.
---- !u!114 &11499570
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 144960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  news: 'Buy shirts, dresses, collars and sleeves by Cluett, Peabody & Co. Inc.
-
-    They''re super-fancy!'
 --- !u!222 &22207160
 CanvasRenderer:
   m_ObjectHideFlags: 1
@@ -7833,6 +7992,23 @@ RectTransform:
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22402628
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22464170}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22403200
 RectTransform:
@@ -8203,6 +8379,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22414640
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 105148}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22438024}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22415218
 RectTransform:
   m_ObjectHideFlags: 1
@@ -8321,6 +8514,23 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22419328
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 189758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22464170}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22419686
@@ -8513,6 +8723,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22425776
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 110106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22468630}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22425808
 RectTransform:
   m_ObjectHideFlags: 1
@@ -8692,11 +8919,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 22468810}
-  - {fileID: 22446540}
-  - {fileID: 22451198}
-  - {fileID: 22466780}
-  - {fileID: 22439760}
+  - {fileID: 22464170}
+  - {fileID: 22438024}
+  - {fileID: 22468630}
+  - {fileID: 22444420}
   m_Father: {fileID: 22485822}
   m_RootOrder: 7
   m_AnchorMin: {x: 0, y: 0}
@@ -9058,6 +9284,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22438024
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 154686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22414640}
+  - {fileID: 22442650}
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22439174
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9107,23 +9352,6 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -1.07288361e-06}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: .5, y: .5}
---- !u!224 &22439760
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 188898}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 22429828}
-  m_RootOrder: 4
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22439872
@@ -9177,6 +9405,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22442650
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 101544}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22438024}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22442970
 RectTransform:
   m_ObjectHideFlags: 1
@@ -9226,6 +9471,24 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22444420
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 139062}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22446540}
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 3
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22444634
@@ -9340,8 +9603,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 22429828}
-  m_RootOrder: 1
+  m_Father: {fileID: 22444420}
+  m_RootOrder: 0
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
@@ -9458,23 +9721,6 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: .5, y: .5}
---- !u!224 &22451198
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 144960}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 22429828}
-  m_RootOrder: 2
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22451700
@@ -9602,6 +9848,23 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
+--- !u!224 &22454038
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 22464170}
+  m_RootOrder: 1
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22454978
@@ -9988,6 +10251,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -10, y: -10}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22464170
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22402628}
+  - {fileID: 22454038}
+  - {fileID: 22419328}
+  - {fileID: 22467178}
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 0
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22464946
 RectTransform:
   m_ObjectHideFlags: 1
@@ -10059,17 +10343,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 85}
   m_Pivot: {x: .5, y: 1}
---- !u!224 &22466780
+--- !u!224 &22467178
 RectTransform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 118336}
+  m_GameObject: {fileID: 124490}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 22429828}
+  m_Father: {fileID: 22464170}
   m_RootOrder: 3
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10175,6 +10459,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
+--- !u!224 &22468630
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 108090}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 22425776}
+  m_Father: {fileID: 22429828}
+  m_RootOrder: 2
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 2.38418579e-07}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22468728
 RectTransform:
   m_ObjectHideFlags: 1
@@ -10190,23 +10492,6 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: .5, y: .5}
---- !u!224 &22468810
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 133456}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 22429828}
-  m_RootOrder: 0
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -2.38418579e-07}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: .5, y: .5}
 --- !u!224 &22468932
