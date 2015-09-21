@@ -1,10 +1,10 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Dialog : MonoBehaviour
 {
     [SerializeField]
-    DialogPanel.Character character = DialogPanel.Character.AmandaCuett;
+    DialogPanel.Character character = DialogPanel.Character.AmandaCluett;
     [SerializeField]
     [Multiline]
     string text = "This is a test";

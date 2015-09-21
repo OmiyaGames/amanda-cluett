@@ -7,8 +7,8 @@ public class DialogPanel : MonoBehaviour
 {
     public enum Character
     {
-        GeorgeCuett,
-        AmandaCuett,
+        GeorgeCluett,
+        AmandaCluett,
         Narrator,
         Messenger,
         MaryWarren

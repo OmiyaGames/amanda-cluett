@@ -4222,7 +4222,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 3
-  text: I'm afraid I have some bad news, Mrs. Cruett.
+  text: I'm afraid I have some bad news, Mrs. Cluett.
 --- !u!114 &11413330
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4784,7 +4784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  text: '"Amanda Cruett"
+  text: '"Amanda Cluett"
 
     Created for the Local History Game Jam'
 --- !u!114 &11423698
@@ -5096,7 +5096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 3
-  text: Your husband, George Cruett, has recently been in an accident, and passed
+  text: Your husband, George Cluett, has recently been in a fatal accident, and passed
     away.
 --- !u!114 &11430068
 MonoBehaviour:
@@ -5455,7 +5455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  news: 'George Cruett and his wife joins Anti-Suffrage movement:
+  news: 'George Cluett and his wife joins Anti-Suffrage movement:
 
     "They don''t deserve the rights!"'
 --- !u!114 &11442498
@@ -5555,7 +5555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 2
-  text: It was with Amanda Cruett's and Mary Warren's hard work that allowed more
+  text: It was with Amanda Cluett's and Mary Warren's hard work that allowed more
     women to become independent.
 --- !u!114 &11445942
 MonoBehaviour:
@@ -5681,6 +5681,7 @@ MonoBehaviour:
   - {fileID: 11467764}
   - {fileID: 11416106}
   - {fileID: 11491112}
+  numberOfEntriesToCache: 3
 --- !u!114 &11447448
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5920,7 +5921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 3
-  text: I'm so sorry, Mrs. Cruett.
+  text: I'm so sorry, Mrs. Cluett.
 --- !u!114 &11449916
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6378,7 +6379,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  news: 'Millionaire George Cruett describes how Cluett, Peabody & Co. Inc. became
+  news: 'Millionaire George Cluett describes how Cluett, Peabody & Co. Inc. became
     so successful:
 
     "It''s all thanks to my hard-working employees."'
@@ -7093,7 +7094,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c211147e6cd94b7f9e935324fe4db37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  news: 'Millionaire George Cruett dies in an accident.
+  news: 'Millionaire George Cluett dies in an accident.
 
     Wife is heartbroken, and won''t speak.'
 --- !u!114 &11472688
@@ -7768,7 +7769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 3
-  text: Are you Mrs. Amanda Cruett?
+  text: Are you Mrs. Amanda Cluett?
 --- !u!114 &11487188
 MonoBehaviour:
   m_ObjectHideFlags: 1
