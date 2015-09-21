@@ -65,6 +65,12 @@ public class NewsPanel : MonoBehaviour
 		// Display this news
 		newText.text = entry.News;
 		animator.SetTrigger(nextEntryTrigger);
+
+		// Reset time
+		if(lastStarted > 0)
+		{
+			Resume();
+		}
 	}
 
 	public void SwapLabels()
@@ -86,9 +92,6 @@ public class NewsPanel : MonoBehaviour
 		{
 			// Switch to the next news
 			NextNewsEntry();
-
-			// Reset time
-			lastStarted = Time.time;
 		}
 	}
 }

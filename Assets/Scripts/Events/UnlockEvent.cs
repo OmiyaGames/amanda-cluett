@@ -16,7 +16,10 @@ public class UnlockEvent : MonoBehaviour
     [SerializeField]
     DialogCollection conversation;
 	[SerializeField]
-	NewsEntry[] newsEntries;
+	[UnityEngine.Serialization.FormerlySerializedAs("newsEntries")]
+	NewsEntry[] newsToAdd;
+	[SerializeField]
+	NewsEntry[] newsToRemove;
 
     [Header("Change numbers")]
     [SerializeField]
@@ -169,20 +172,24 @@ public class UnlockEvent : MonoBehaviour
             group.Unlock(parentPanel);
         }
 
-        // Consider unlocking news here
-		if(newsEntries.Length > 0)
+		// Remove news
+		for(index = 0; index < newsToRemove.Length; ++index)
 		{
-			for(index = 0; index < newsEntries.Length; ++index)
-			{
-				parentPanel.News.AllEntries.Add(newsEntries[index]);
-			}
-
-			if(isStart == true)
-			{
-				parentPanel.News.NextNewsEntry(newsEntries[0]);
-			}
+			parentPanel.News.AllEntries.Remove(newsToRemove[index]);
 		}
-    }
+	
+		// Add news here
+		for(index = 0; index < newsToAdd.Length; ++index)
+		{
+			parentPanel.News.AllEntries.Add(newsToAdd[index]);
+		}
+
+		// Display the top-most news
+		if((newsToAdd.Length > 0) && (isStart == false))
+		{
+			parentPanel.News.NextNewsEntry(newsToAdd[0]);
+		}
+	}
 
     void AfterConversation(DialogPanel panel)
     {

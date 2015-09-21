@@ -349,9 +349,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: .899999976
-  m_Text: 'I hope you can read this fine....
-
-    This is a new line'
+  m_Text: 
 --- !u!114 &11428524
 MonoBehaviour:
   m_ObjectHideFlags: 1
