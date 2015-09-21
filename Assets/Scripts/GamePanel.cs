@@ -301,7 +301,7 @@ public class GamePanel : MonoBehaviour
         // Update Victory Points
         if (victoryPoints > 0)
         {
-            victoryLabel.text = CurrentVictoryPoints.ToString();
+            victoryLabel.text = CurrentVictoryPoints.ToString("N0");
             victorySet.SetActive(true);
         }
         else
