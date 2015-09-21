@@ -192,7 +192,7 @@ public class UnlockEvent : MonoBehaviour
         if (resetData == true)
         {
             // Reload this scene
-            Singleton.Get<TimeManager>().PauseFor(5f);
+            Singleton.Get<TimeManager>().PauseFor(3f);
             Singleton.Get<GameSettings>().ClearSettings();
             Singleton.Get<SceneManager>().ReloadCurrentScene();
         }

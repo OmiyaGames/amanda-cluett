@@ -272,7 +272,8 @@ namespace OmiyaGames
 			// Since member variables are unchanged up to this point, we can re-use them here.
 
             // Set the version
-			PlayerPrefs.SetInt(VersionKey, currentVersion);
+            // (For this game we won't be)
+			//PlayerPrefs.SetInt(VersionKey, currentVersion);
 
             // Save the music settings
             PlayerPrefs.SetFloat(MusicVolumeKey, musicVolume);
