@@ -187,9 +187,13 @@ public class UnlockEvent : MonoBehaviour
             parentPanel.CurrentCurrencyCents += increaseCents;
         }
 
-        if(resetData == true)
+        parentPanel.Queue.ResetTime();
+
+        if (resetData == true)
         {
             // Reload this scene
+            Singleton.Get<TimeManager>().PauseFor(5f);
+            Singleton.Get<GameSettings>().ClearSettings();
             Singleton.Get<SceneManager>().ReloadCurrentScene();
         }
     }

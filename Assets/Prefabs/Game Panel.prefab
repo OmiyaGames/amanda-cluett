@@ -4793,7 +4793,7 @@ MonoBehaviour:
   group: {fileID: 0}
   conversation: {fileID: 11431402}
   changeHusbandIncome: 1
-  husbandIncomeCents: 10000
+  husbandIncomeCents: 2000
   increaseAccount: 0
   increaseCents: 3500000
   resetData: 0

@@ -92,8 +92,13 @@ public class EventQueue
                 nextEvent.UnlockEverything(this);
 
                 // Indicate we started running an event
-                lastRanEvent = Time.time;
+                ResetTime();
             }
         }
+    }
+
+    public void ResetTime()
+    {
+        lastRanEvent = Time.time;
     }
 }
