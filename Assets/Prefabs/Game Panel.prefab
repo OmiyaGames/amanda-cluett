@@ -4356,7 +4356,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   news: 'Local area board game designers group up to make games about the local history.
 
-    "Everyone can make games," claims Jamey.'
+    "Everyone can make games!"'
 --- !u!114 &11416312
 MonoBehaviour:
   m_ObjectHideFlags: 1
