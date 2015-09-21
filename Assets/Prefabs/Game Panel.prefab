@@ -2154,22 +2154,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &177452
-GameObject:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
-  m_Component:
-  - 224: {fileID: 22497746}
-  - 114: {fileID: 11413386}
-  m_Layer: 5
-  m_Name: Dialog (23)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &178262
 GameObject:
   m_ObjectHideFlags: 1
@@ -2898,7 +2882,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 1
   text: And I looked at all those poor women in the audience before proclaiming they
-    don't deserve the rights.
+    didn't deserve any rights.
 --- !u!114 &11404346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3190,19 +3174,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 3
   text: I'm afraid I have some bad news, Mrs. Cruett.
---- !u!114 &11413386
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f135d7c53f36dd343aa63346cdb3a9ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  character: 4
-  text: Thank you. I couldn't do this without you.
 --- !u!114 &11413388
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3436,7 +3407,7 @@ MonoBehaviour:
     quantity: 1
   gain:
     units: 6
-    quantity: 60
+    quantity: 150
 --- !u!114 &11419246
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3467,7 +3438,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: You're going a little too fast. Can you start back from the top?
+  text: Wait, hold on. Can you start back from the top?
 --- !u!114 &11420772
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3606,10 +3577,10 @@ MonoBehaviour:
   powerUpButton: {fileID: 11451984}
   cost:
     units: 1
-    quantity: 50
+    quantity: 10
   gain:
     units: 6
-    quantity: 100
+    quantity: 60
 --- !u!114 &11422898
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3768,7 +3739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: You're an amazing person, Amanda. Has anyone else told you that?
+  text: You're an amazing person, Amanda. I couldn't do this without you.
 --- !u!114 &11426386
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3782,7 +3753,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   supplyCheck:
   - units: 6
-    quantity: 300
+    quantity: 500
 --- !u!114 &11426396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4011,7 +3982,7 @@ MonoBehaviour:
     quantity: 2
   gain:
     units: 6
-    quantity: 35
+    quantity: 100
 --- !u!114 &11433064
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4068,9 +4039,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   supplyCheck:
   - units: 6
-    quantity: 400
+    quantity: 1000
   - units: 0
-    quantity: 500000
+    quantity: 750000
 --- !u!114 &11434252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4096,7 +4067,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: What those girls need to fight against those stubborn men are good education
+  text: What those girls need to fight against stubborn politicians are good education
     and real-world skill sets.
 --- !u!114 &11435044
 MonoBehaviour:
@@ -4186,7 +4157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: It just makes me feel like a big traitor.
+  text: It made me feel like a big traitor.
 --- !u!114 &11441728
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4297,7 +4268,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   supplyCheck:
   - units: 6
-    quantity: 900
+    quantity: 5000
 --- !u!114 &11446338
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -4856,7 +4827,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: My husband kept begging me to join in the rally.
+  text: My husband kept begging me to join in the movement.
 --- !u!114 &11457484
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5278,7 +5249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: Well, I was at that Anti-Suffrage rally yesterday, to voiced my support.
+  text: Well, I was at that Anti-Suffrage rally yesterday to voice my support.
 --- !u!114 &11467472
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5482,7 +5453,7 @@ MonoBehaviour:
   changeHusbandIncome: 1
   husbandIncomeCents: 0
   increaseAccount: 1
-  increaseCents: 3500000
+  increaseCents: 150000000
 --- !u!114 &11469864
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5643,7 +5614,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 4
-  text: <i>I was in the same rally, too.</i>
+  text: I was in the same rally, too.
 --- !u!114 &11474002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5947,10 +5918,10 @@ MonoBehaviour:
   powerUpButton: {fileID: 11400292}
   cost:
     units: 0
-    quantity: 10000
+    quantity: 100000
   gain:
     units: 6
-    quantity: 40
+    quantity: 1500
 --- !u!114 &11482208
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -5990,10 +5961,10 @@ MonoBehaviour:
   powerUpButton: {fileID: 11416724}
   cost:
     units: 2
-    quantity: 15
+    quantity: 1
   gain:
     units: 6
-    quantity: 75
+    quantity: 25
 --- !u!114 &11484546
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -6551,7 +6522,7 @@ MonoBehaviour:
     quantity: 5
   gain:
     units: 6
-    quantity: 125
+    quantity: 700
 --- !u!114 &11495982
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -7903,7 +7874,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 22488710}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -9718,7 +9689,6 @@ RectTransform:
   - {fileID: 22483806}
   - {fileID: 22453038}
   - {fileID: 22422232}
-  - {fileID: 22497746}
   - {fileID: 22432124}
   m_Father: {fileID: 22448922}
   m_RootOrder: 4
@@ -9901,23 +9871,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 45}
   m_Pivot: {x: .5, y: 1}
---- !u!224 &22497746
-RectTransform:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 177452}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 22488710}
-  m_RootOrder: 21
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: .5, y: .5}
 --- !u!224 &22498774
 RectTransform:
   m_ObjectHideFlags: 1
