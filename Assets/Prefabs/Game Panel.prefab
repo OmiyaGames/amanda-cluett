@@ -5934,8 +5934,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   supplyCheck:
-  - units: 0
-    quantity: 3999
   - units: 6
     quantity: 50
 --- !u!114 &11450196
@@ -6047,8 +6045,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   supplyCheck:
-  - units: 0
-    quantity: 11499
   - units: 6
     quantity: 100
 --- !u!114 &11452448
