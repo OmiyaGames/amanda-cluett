@@ -4700,7 +4700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: 1
-  text: You mean that rally opposing women's rights?
+  text: You mean that rally opposing woman's rights?
 --- !u!114 &11422698
 MonoBehaviour:
   m_ObjectHideFlags: 1
