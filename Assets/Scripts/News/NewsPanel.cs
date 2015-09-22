@@ -65,10 +65,12 @@ public class NewsPanel : MonoBehaviour
 			entry = randomEntries.RandomElement;
 
 			// Get an entry that isn't in the cache list
+			//Debug.Log("Random Entry Selected");
 			while(cacheEntries.Contains(entry) == true)
 			{
 				// Keep grabbing a random element
 				entry = randomEntries.RandomElement;
+				//Debug.Log("Duplicate News found");
 			}
 		}
 
@@ -82,17 +84,14 @@ public class NewsPanel : MonoBehaviour
 			Resume();
 		}
 
-		// Check if this is a new entry
-		if(cacheEntries.Contains(entry) == false)
-		{
-			// Add entry to the list
-			cacheEntries.Push(entry);
+		// Add entry to the list
+		cacheEntries.Push(entry);
+		//Debug.Log("Cache size: " + cacheEntries.Count);
 
-			// If this exceeds the size, start removing entries
-			while(cacheEntries.Count > numberOfEntriesToCache)
-			{
-				cacheEntries.Pop();
-			}
+		// If this exceeds the size, start removing entries
+		while(cacheEntries.Count > numberOfEntriesToCache)
+		{
+			cacheEntries.Pop();
 		}
 	}
 

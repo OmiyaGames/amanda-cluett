@@ -38,6 +38,8 @@ public class DialogPanel : MonoBehaviour
     string nextTrigger = "next";
     [SerializeField]
     string visibleStateName = "Dialog Visible Still";
+	[SerializeField]
+	float disabledDuration = 0.25f;
 
     [Header("Dialogs")]
     [SerializeField]
@@ -51,6 +53,7 @@ public class DialogPanel : MonoBehaviour
     DialogCollection currentDialogs = null;
     int dialogIndex = -1;
     MenuManager manager = null;
+	float timeLastClicked = -1f;
 
     public bool IsVisible
     {
@@ -116,6 +119,7 @@ public class DialogPanel : MonoBehaviour
 
         // Make time stop
         game.Pause();
+		timeLastClicked = Time.time;
 
         // Play an animation
         animator.SetBool(visibleBoolField, true);
@@ -124,7 +128,7 @@ public class DialogPanel : MonoBehaviour
     public void OnNextClicked()
     {
         // Check to make sure the last dialog is shown
-        if(animator.GetCurrentAnimatorStateInfo(0).IsName(visibleStateName) == true)
+		if((animator.GetCurrentAnimatorStateInfo(0).IsName(visibleStateName) == true) && ((Time.time - timeLastClicked) > disabledDuration))
         {
             // Check if there's still more dialog
             ++dialogIndex;
@@ -136,6 +140,7 @@ public class DialogPanel : MonoBehaviour
 
                 // Play an animation
                 animator.SetTrigger(nextTrigger);
+				timeLastClicked = Time.time;
             }
             else
             {

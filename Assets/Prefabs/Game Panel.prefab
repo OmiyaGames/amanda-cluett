@@ -5681,7 +5681,7 @@ MonoBehaviour:
   - {fileID: 11467764}
   - {fileID: 11416106}
   - {fileID: 11491112}
-  numberOfEntriesToCache: 3
+  numberOfEntriesToCache: 5
 --- !u!114 &11447448
 MonoBehaviour:
   m_ObjectHideFlags: 1
