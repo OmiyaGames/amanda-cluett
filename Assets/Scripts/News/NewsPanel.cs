@@ -31,7 +31,7 @@ public class NewsPanel : MonoBehaviour
 	int numberOfEntriesToCache = 3;
 
 	RandomList<NewsEntry> randomEntries = null;
-	readonly Stack<NewsEntry> cacheEntries = new Stack<NewsEntry>();
+	readonly Queue<NewsEntry> cacheEntries = new Queue<NewsEntry>();
 	float lastStarted = -1f;
 
 	public List<NewsEntry> AllEntries
@@ -69,8 +69,8 @@ public class NewsPanel : MonoBehaviour
 			while(cacheEntries.Contains(entry) == true)
 			{
 				// Keep grabbing a random element
+				Debug.Log("Duplicate News found:\n" + entry.News);
 				entry = randomEntries.RandomElement;
-				//Debug.Log("Duplicate News found");
 			}
 		}
 
@@ -85,14 +85,15 @@ public class NewsPanel : MonoBehaviour
 		}
 
 		// Add entry to the list
-		cacheEntries.Push(entry);
-		//Debug.Log("Cache size: " + cacheEntries.Count);
+		cacheEntries.Enqueue(entry);
 
 		// If this exceeds the size, start removing entries
 		while(cacheEntries.Count > numberOfEntriesToCache)
 		{
-			cacheEntries.Pop();
+			entry = cacheEntries.Dequeue();
+			Debug.Log("Removing News from cache:\n" + entry.News);
 		}
+		Debug.Log("Cache size: " + cacheEntries.Count);
 	}
 
 	public void SwapLabels()
@@ -112,7 +113,7 @@ public class NewsPanel : MonoBehaviour
 
 		// Cache news
 		cacheEntries.Clear();
-		cacheEntries.Push(tempEntry);
+		cacheEntries.Enqueue(tempEntry);
 	}
 
 	void Update()
