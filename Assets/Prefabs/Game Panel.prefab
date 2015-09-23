@@ -5667,7 +5667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba356001898b545e2ad7d27d897c910f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  updateNewsEvery: 7
+  updateNewsEvery: 8.5
   parentPanel: {fileID: 11426510}
   currentText: {fileID: 11479224}
   newText: {fileID: 11446338}

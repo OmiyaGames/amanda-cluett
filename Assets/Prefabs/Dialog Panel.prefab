@@ -263,6 +263,7 @@ MonoBehaviour:
   visibleBoolField: visible
   nextTrigger: next
   visibleStateName: Dialog Visible Still
+  disabledDuration: .5
   characterMap:
   - character: 2
     textColor: {r: 1, g: 1, b: 1, a: 1}
