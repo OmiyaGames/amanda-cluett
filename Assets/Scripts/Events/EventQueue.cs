@@ -63,38 +63,38 @@ public class EventQueue
 
     public void AddEvent(UnlockEvent unlockEvent)
     {
-        if(unlockEvent != null)
+		if((unlockEvent != null) && (unlockEvent.IsUnlocked == false))
         {
-            // Check if this event is a conversation
-            if(unlockEvent.ContainsConversation == true)
-            {
-                // Queue this event.  We can afford to delay this as necessary
-                eventQueue.Enqueue(unlockEvent);
-            }
-            else
-            {
-                // Unlock this event immediately.  We cannot afford to delay this.
-                unlockEvent.UnlockEverything(this);
-            }
+			// Queue this event.  We can afford to delay this as necessary
+			eventQueue.Enqueue(unlockEvent);
+			Debug.Log("Queueing event: " + unlockEvent.name);
         }
     }
 
     public void OnUpdate()
     {
-        // Check if there's any events
-        if(eventQueue.Count > 0)
-        {
-            // Check if we're ready to play an event
-            if(IsReadyToPlayEvent == true)
-            {
-                // Run the next event
+		// Check if we're ready to play an event
+		if((eventQueue.Count > 0) && (IsReadyToPlayEvent == true))
+		{
+			// Check if there's any events
+			nextEvent = null;
+			while((eventQueue.Count > 0) && (nextEvent == null))
+			{
+                // Grab the next event
                 nextEvent = eventQueue.Dequeue();
-                nextEvent.UnlockEverything(this);
-
-                // Indicate we started running an event
-                ResetTime();
+				if(nextEvent.IsUnlocked == true)
+				{
+					// Skip unlocked events
+					nextEvent = null;
+				}
+				else
+				{
+					// Indicate we started running an event
+					nextEvent.UnlockEverything(this);
+					ResetTime();
+				}
             }
-        }
+		}
     }
 
     public void ResetTime()

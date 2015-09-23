@@ -88,8 +88,8 @@ public class UnlockEvent : MonoBehaviour
             isUnlocked = true;
             PlayerPrefs.SetInt(PlayerPrefsKey, 1);
 
-            // Disassociate with all events
-            OnDestroy();
+			// Disassociate with all events (just in case)
+			OnDestroy();
 
             if(resetData == true)
             {
@@ -161,7 +161,10 @@ public class UnlockEvent : MonoBehaviour
         {
             // If so, unlock everything!
             parentPanel.Queue.AddEvent(this);
-        }
+
+			// Disassociate with all events
+			OnDestroy();
+		}
     }
 
     void UnlockGroupAndNews(bool isStart)
