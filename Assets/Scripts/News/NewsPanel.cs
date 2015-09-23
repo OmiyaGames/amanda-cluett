@@ -69,7 +69,7 @@ public class NewsPanel : MonoBehaviour
 			while(cacheEntries.Contains(entry) == true)
 			{
 				// Keep grabbing a random element
-				Debug.Log("Duplicate News found:\n" + entry.News);
+				//Debug.Log("Duplicate News found:\n" + entry.News);
 				entry = randomEntries.RandomElement;
 			}
 		}
@@ -91,9 +91,9 @@ public class NewsPanel : MonoBehaviour
 		while(cacheEntries.Count > numberOfEntriesToCache)
 		{
 			entry = cacheEntries.Dequeue();
-			Debug.Log("Removing News from cache:\n" + entry.News);
+			//Debug.Log("Removing News from cache:\n" + entry.News);
 		}
-		Debug.Log("Cache size: " + cacheEntries.Count);
+		//Debug.Log("Cache size: " + cacheEntries.Count);
 	}
 
 	public void SwapLabels()
