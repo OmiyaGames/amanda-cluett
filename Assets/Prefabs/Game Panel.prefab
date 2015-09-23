@@ -4956,7 +4956,7 @@ MonoBehaviour:
   dialogPanel: {fileID: 0}
   newsPanel: {fileID: 11446764}
   eventQueue:
-    gapBetweenEventsSeconds: 5
+    gapBetweenEventsSeconds: 12.5
   updateCurrencyEvery: 1
 --- !u!114 &11426736
 MonoBehaviour:
