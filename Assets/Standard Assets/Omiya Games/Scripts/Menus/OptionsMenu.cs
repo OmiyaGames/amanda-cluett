@@ -224,18 +224,9 @@ namespace OmiyaGames
             {
                 // Clear settings
                 Singleton.Get<GameSettings>().ClearSettings();
-
-                // Update the level select menu, if one is available
-                LevelSelectMenu levelSelect = Manager.GetMenu<LevelSelectMenu>();
-                if(levelSelect != null)
-                {
-                    levelSelect.SetButtonsEnabled(true);
-                }
-                else
-                {
-                    // Reload level
-                    Singleton.Get<SceneManager>().ReloadCurrentScene();
-                }
+				Singleton.Get<TimeManager>().PauseFor(3f);
+				Singleton.Get<TimeManager>().IsManuallyPaused = false;
+				Singleton.Get<SceneManager>().ReloadCurrentScene();
             }
         }
     }

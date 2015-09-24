@@ -71,5 +71,13 @@ namespace OmiyaGames
             // Indicate button is clicked
             Manager.ButtonClick.Play();
         }
+
+		public void OnQuitClicked()
+		{
+			Application.Quit();
+			
+			// Indicate button is clicked
+			Manager.ButtonClick.Play();
+		}
     }
 }
